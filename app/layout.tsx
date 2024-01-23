@@ -23,7 +23,7 @@ export default function RootLayout({
       {/* <body className={inter.className}>{children}</body> */}
       <body>
         {children}
-        <div className="bg-white flex flex-row items-center justify-between px-4 h-14 sticky bottom-0 z-50 ">
+        <div className="bg-white  flex  flex-row items-center justify-between px-4 h-14 sticky bottom-0 z-50 ">
           <div className="flex flex-col items-center text-slate-500 text-xs">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -60,11 +60,12 @@ export default function RootLayout({
           </div>
           <div>
             <Image
-              src="/public/images/logo.png"
+              src="/images/logo.png"
               alt="zcfsdf"
-              width={14}
-              height={14}
+              width={35}
+              height={35}
             />
+            {/* <img src="/public/images/logo.png"/> */}
           </div>
           <div className="flex flex-col items-center text-slate-500 text-xs">
             <svg
