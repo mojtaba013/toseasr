@@ -63,7 +63,7 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <p className="text-xs font-medium">کارت به کارت</p>
+              <p className="text-xs font-bold text-slate-600">کارت به کارت</p>
             </div>
             <div className="flex flex-col items-center text-slate-800">
               <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-md">
@@ -82,7 +82,7 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <p className="text-xs font-medium">انتقال پول</p>
+              <p className="text-xs font-bold text-slate-600">انتقال پول</p>
             </div>
             <div className="flex flex-col items-center text-slate-800">
               <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-md">
@@ -101,7 +101,7 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <p className="text-xs font-medium">ساتنا پایا</p>
+              <p className="text-xs font-bold text-slate-600">ساتنا پایا</p>
             </div>
             <div className="flex flex-col items-center text-slate-800">
               <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-md">
@@ -120,7 +120,7 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <p className="text-xs font-medium">صورتحساب</p>
+              <p className="text-xs font-bold text-slate-600">صورتحساب</p>
             </div>
             <div className="flex flex-col items-center text-slate-800">
               <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-md">
@@ -139,7 +139,7 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <p className="text-xs font-medium">افتتاح حساب</p>
+              <p className="text-xs font-bold text-slate-600">افتتاح حساب</p>
             </div>
 
             <div className="flex flex-col items-center text-slate-800">
@@ -159,7 +159,7 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <p className="text-xs font-medium">سایر خدمات</p>
+              <p className="text-xs font-bold text-slate-600">سایر خدمات</p>
             </div>
           </div>
         </div>
@@ -184,7 +184,7 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <p className="text-xs font-medium">معدل گیری</p>
+              <p className="text-xs font-bold text-slate-600">معدل گیری</p>
             </div>
             <div className="flex flex-col items-center text-slate-800">
               <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-md">
@@ -203,7 +203,7 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <p className="text-xs font-medium">درخواست وام</p>
+              <p className="text-xs font-bold text-slate-600">درخواست وام</p>
             </div>
             <div className="flex flex-col items-center text-slate-800">
               <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-md">
@@ -222,7 +222,7 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <p className="text-xs font-medium">ضمانت</p>
+              <p className="text-xs font-bold text-slate-600">ضمانت</p>
             </div>
             <div className="flex flex-col items-center text-slate-800">
               <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-md">
@@ -241,7 +241,7 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <p className="text-xs font-medium">سوابق وام</p>
+              <p className="text-xs font-bold text-slate-600">سوابق وام</p>
             </div>
           </div>
         </div>
@@ -266,7 +266,7 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <p className="text-xs font-medium">مجتبی کجوری</p>
+              <p className="text-xs font-bold text-slate-600">مجتبی کجوری</p>
             </div>
             <div className="flex flex-col items-center text-slate-800">
               <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-full">
@@ -285,7 +285,7 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <p className="text-xs font-medium">هادی حسینقلی زاده</p>
+              <p className="text-xs font-bold text-slate-600">هادی حسینقلی زاده</p>
             </div>
             <div className="flex flex-col items-center text-slate-800">
               <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-full">
@@ -304,7 +304,7 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <p className="text-xs font-medium">میثم وحدت پناه</p>
+              <p className="text-xs font-bold text-slate-600">میثم وحدت پناه</p>
             </div>
           </div>
         </div>
