@@ -47,7 +47,7 @@ export default function Home() {
           <h1 className="text-slate-800 pt-4 pr-4 pb-4">خدمات حساب</h1>
           <div className="flex flex-row flex-wrap gap-4 flex-1  px-6 pb-6">
             <div className="flex flex-col items-center text-slate-800">
-              <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-md">
+              <div className="flex items-center justify-center  w-16 h-16 bg-blue-100 rounded-lg">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -66,7 +66,7 @@ export default function Home() {
               <p className="text-xs font-bold text-slate-600">کارت به کارت</p>
             </div>
             <div className="flex flex-col items-center text-slate-800">
-              <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-md">
+              <div className="flex items-center justify-center  w-16 h-16 bg-blue-100 rounded-lg">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -85,7 +85,7 @@ export default function Home() {
               <p className="text-xs font-bold text-slate-600">انتقال پول</p>
             </div>
             <div className="flex flex-col items-center text-slate-800">
-              <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-md">
+              <div className="flex items-center justify-center  w-16 h-16 bg-blue-100 rounded-lg">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -104,7 +104,7 @@ export default function Home() {
               <p className="text-xs font-bold text-slate-600">ساتنا پایا</p>
             </div>
             <div className="flex flex-col items-center text-slate-800">
-              <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-md">
+              <div className="flex items-center justify-center  w-16 h-16 bg-blue-100 rounded-lg">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -123,7 +123,7 @@ export default function Home() {
               <p className="text-xs font-bold text-slate-600">صورتحساب</p>
             </div>
             <div className="flex flex-col items-center text-slate-800">
-              <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-md">
+              <div className="flex items-center justify-center  w-16 h-16 bg-blue-100 rounded-lg">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -143,7 +143,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col items-center text-slate-800">
-              <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-md">
+              <div className="flex items-center justify-center  w-16 h-16 bg-blue-100 rounded-lg">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -168,7 +168,7 @@ export default function Home() {
           <h1 className="text-slate-800 pt-4 pr-4 pb-4">خدمات تسهیلات</h1>
           <div className="flex flex-row flex-wrap gap-4 flex-1   px-6 pb-6">
             <div className="flex flex-col items-center text-slate-800">
-              <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-md">
+              <div className="flex items-center justify-center  w-16 h-16 bg-blue-100 rounded-lg">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -187,7 +187,7 @@ export default function Home() {
               <p className="text-xs font-bold text-slate-600">معدل گیری</p>
             </div>
             <div className="flex flex-col items-center text-slate-800">
-              <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-md">
+              <div className="flex items-center justify-center  w-16 h-16 bg-blue-100 rounded-lg">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -206,7 +206,7 @@ export default function Home() {
               <p className="text-xs font-bold text-slate-600">درخواست وام</p>
             </div>
             <div className="flex flex-col items-center text-slate-800">
-              <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-md">
+              <div className="flex items-center justify-center  w-16 h-16 bg-blue-100 rounded-lg">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -225,7 +225,7 @@ export default function Home() {
               <p className="text-xs font-bold text-slate-600">ضمانت</p>
             </div>
             <div className="flex flex-col items-center text-slate-800">
-              <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-md">
+              <div className="flex items-center justify-center  w-16 h-16 bg-blue-100 rounded-lg">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -250,7 +250,7 @@ export default function Home() {
           <h1 className="text-slate-800 pt-4 pr-4 pb-4">مخاطب های پرتکرار</h1>
           <div className="flex flex-row flex-wrap gap-4 flex-1   px-6 pb-6">
             <div className="flex flex-col items-center text-slate-800">
-              <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-full">
+              <div className="flex items-center justify-center  w-16 h-16 bg-blue-100 rounded-full">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -269,7 +269,7 @@ export default function Home() {
               <p className="text-xs font-bold text-slate-600">مجتبی کجوری</p>
             </div>
             <div className="flex flex-col items-center text-slate-800">
-              <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-full">
+              <div className="flex items-center justify-center  w-16 h-16 bg-blue-100 rounded-full">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -288,7 +288,7 @@ export default function Home() {
               <p className="text-xs font-bold text-slate-600">هادی حسینقلی زاده</p>
             </div>
             <div className="flex flex-col items-center text-slate-800">
-              <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-full">
+              <div className="flex items-center justify-center  w-16 h-16 bg-blue-100 rounded-full">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
