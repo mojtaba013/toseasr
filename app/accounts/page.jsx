@@ -1,10 +1,27 @@
 import React from "react";
 import { ICONCOLOR } from "@/utils/constants";
+import Link from "next/link";
 
 function acount() {
   return (
     <div className="text-white">
-      <div className="flex items-center justify-center p-4 bg-white ">
+      <div className="flex items-center justify-evenly right-0  p-4 bg-white ">
+      <Link href="/">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke={ICONCOLOR}
+            className="w-6 h-6"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+            />
+          </svg>
+        </Link>
         <p className="text-slate-800">حساب ها</p>
       </div>
       <div className=" h-max flex flex-col items-  p-6 gap-y-4 mb-20  ">

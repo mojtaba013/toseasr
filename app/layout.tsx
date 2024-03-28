@@ -24,7 +24,7 @@ export default function RootLayout({
       {/* <body className={inter.className}>{children}</body> */}
       <body className="bg-gray-100">
         {children}
-        <div className="bg-white sm:hidden flex shadow-[0_-4px_8px_0_rgba(0,0,0,0.1)]   flex-row items-center justify-between p-4 rounded-t-md  fixed bottom-0 left-0 right-0 z-50 ">
+        <div className="bg-white sm:hidden flex shadow-[0_-4px_8px_0_rgba(0,0,0,0.1)]   flex-row items-center justify-between p-4 rounded-t-lg  fixed bottom-0 left-0 right-0 z-50 ">
           {/* کارتها */}
           <Link href="/carts">
             <div className="flex flex-col items-center text-slate-500 ">
@@ -72,8 +72,8 @@ export default function RootLayout({
               <Image
                 src="/images/logo.png"
                 alt="zcfsdf"
-                width={40}
-                height={40}
+                width={50}
+                height={50}
               />
               {/* <img src="/public/images/logo.png"/> */}
             </div>
