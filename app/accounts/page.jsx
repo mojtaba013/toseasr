@@ -5,20 +5,19 @@ function acount() {
   return (
     <div className="text-white">
       <div className="flex items-center justify-center p-4 bg-white ">
-        <p>حساب ها</p>
+        <p className="text-slate-800">حساب ها</p>
       </div>
       <div className=" h-max flex flex-col items-  p-6 gap-y-4 mb-20  ">
         <div className="flex flex-col   bg-blue-400 rounded-md w-full p-4 gap-y-10">
           <div className="flex justify-between  ">
-            <p>حساب جامع</p>
+            <p>پس انداز جامع</p>
             <div className="flex items-center gap-x-1">
-              <p>پیش فرض</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
-                stroke="#1111"
+                stroke="#ffffff"
                 className="w-6 h-6"
               >
                 <path
@@ -45,7 +44,7 @@ function acount() {
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={2}
-                stroke={ICONCOLOR}
+                stroke="#ffffff"
                 className="w-4 h-4"
               >
                 <path
@@ -56,22 +55,21 @@ function acount() {
               </svg>
               <p>مانده</p>
             </div>
-            <div className="rounded-full border border-white p-2">
+            <div className="rounded-full border-2 border-white p-2">
               <p>صورتحساب</p>
             </div>
           </div>
         </div>
-        <div className="flex flex-col   bg-blue-300 rounded-md w-full p-4 gap-y-10">
+        <div className="flex flex-col   bg-blue-400 rounded-md w-full p-4 gap-y-10">
           <div className="flex justify-between  ">
-            <p>حساب 2/69/0/149754</p>
+            <p>پس انداز جامع</p>
             <div className="flex items-center gap-x-1">
-              <p>پیش فرض</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
-                stroke={ICONCOLOR}
+                stroke="#ffffff"
                 className="w-6 h-6"
               >
                 <path
@@ -88,10 +86,8 @@ function acount() {
             </div>
           </div>
           <div className="flex flex-row-reverse items-center justify-around font-bold">
-            <p>6037</p>
-            <p>9974</p>
-            <p>6215</p>
-            <p>2373</p>
+            <p>1/69/0/128975</p>
+            <p>شعبه مرکزی</p>
           </div>
           <div className="flex justify-between items-center">
             <div className="flex flex-row items-center gap-x-1">
@@ -100,7 +96,7 @@ function acount() {
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={2}
-                stroke={ICONCOLOR}
+                stroke="#ffffff"
                 className="w-4 h-4"
               >
                 <path
@@ -111,21 +107,8 @@ function acount() {
               </svg>
               <p>مانده</p>
             </div>
-            <div>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-6 h-6"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M12 6.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 12.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 18.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5Z"
-                />
-              </svg>
+            <div className="rounded-full border-2 border-white p-2">
+              <p>صورتحساب</p>
             </div>
           </div>
         </div>

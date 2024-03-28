@@ -43,8 +43,8 @@ function Post() {
         <div className="flex flex-col   bg-blue-100 rounded-md w-full p-4 gap-y-10 text-slate-800">
           <div className="flex justify-between  ">
             <p>حساب 2/69/0/149754</p>
-            <div className="flex items-center gap-x-1">
-              <p>پیش فرض</p>
+            <div className="">
+              
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -111,8 +111,8 @@ function Post() {
         <div className="flex flex-col   bg-blue-100 rounded-md w-full p-4 gap-y-10 text-slate-800">
           <div className="flex justify-between  ">
             <p>حساب 2/69/0/149754</p>
-            <div className="flex items-center gap-x-1">
-              <p>پیش فرض</p>
+            <div className="">
+              
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -179,8 +179,8 @@ function Post() {
         <div className="flex flex-col   bg-blue-100 rounded-md w-full p-4 gap-y-10 text-slate-800">
           <div className="flex justify-between  ">
             <p>حساب 2/69/0/149754</p>
-            <div className="flex items-center gap-x-1">
-              <p>پیش فرض</p>
+            <div className="">
+              
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -247,8 +247,8 @@ function Post() {
         <div className="flex flex-col   bg-blue-100 rounded-md w-full p-4 gap-y-10 text-slate-800">
           <div className="flex justify-between  ">
             <p>حساب 2/69/0/149754</p>
-            <div className="flex items-center gap-x-1">
-              <p>پیش فرض</p>
+            <div className="">
+             
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

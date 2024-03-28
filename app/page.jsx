@@ -5,7 +5,7 @@ import { FaSimCard } from "react-icons/fa6";
 export default function Home() {
   return (
     // mobile mode
-    <div className="sm:hidden  flex flex-col   ">
+    <div className="sm:hidden  flex flex-col ">
       <header className="bg-white h-12 sticky top-0 flex justify-between items-center">
         <div className="pr-2">
           <svg
@@ -41,7 +41,7 @@ export default function Home() {
           </svg>
         </div>
       </header>
-      <div className="mx-4 mb-20">
+      <div className="mx-4 mb-24">
         {/* خدمات حساب */}
         <div className=" flex flex-col  mt-3  rounded-md  bg-white text-right  ">
           <h1 className="text-slate-800 pt-4 pr-4 pb-4">خدمات حساب</h1>

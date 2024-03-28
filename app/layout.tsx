@@ -24,17 +24,17 @@ export default function RootLayout({
       {/* <body className={inter.className}>{children}</body> */}
       <body className="bg-gray-100">
         {children}
-        <div className="bg-white sm:hidden flex shadow-[0_-4px_8px_0_rgba(0,0,0,0.1)]   flex-row items-center justify-between p-2 rounded-t-md  fixed bottom-0 left-0 right-0 z-50 ">
+        <div className="bg-white sm:hidden flex shadow-[0_-4px_8px_0_rgba(0,0,0,0.1)]   flex-row items-center justify-between p-4 rounded-t-md  fixed bottom-0 left-0 right-0 z-50 ">
           {/* کارتها */}
           <Link href="/carts">
-            <div className="flex flex-col items-center text-slate-500 text-xs">
+            <div className="flex flex-col items-center text-slate-500 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-5 h-5"
+                className="w-6 h-6"
               >
                 <path
                   strokeLinecap="round"
@@ -48,14 +48,14 @@ export default function RootLayout({
           </Link>
           {/* حسابها */}
           <Link href="/accounts">
-            <div className="flex flex-col items-center text-slate-500 text-xs">
+            <div className="flex flex-col items-center text-slate-500 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-5 h-5"
+                className="w-6 h-6"
               >
                 <path
                   strokeLinecap="round"
@@ -72,22 +72,22 @@ export default function RootLayout({
               <Image
                 src="/images/logo.png"
                 alt="zcfsdf"
-                width={35}
-                height={35}
+                width={40}
+                height={40}
               />
               {/* <img src="/public/images/logo.png"/> */}
             </div>
           </Link>
           {/* تسهیلات */}
           <Link href="/Tashilat">
-            <div className="flex flex-col items-center text-slate-500 text-xs">
+            <div className="flex flex-col items-center text-slate-500 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-5 h-5"
+                className="w-6 h-6"
               >
                 <path
                   strokeLinecap="round"
@@ -100,14 +100,14 @@ export default function RootLayout({
           </Link>
           {/* profile */}
           <Link href="/profile">
-            <div className="flex flex-col items-center text-slate-500 text-xs">
+            <div className="flex flex-col items-center text-slate-500 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-5 h-5"
+                className="w-6 h-6"
               >
                 <path
                   strokeLinecap="round"
