@@ -5,7 +5,7 @@ import { FaSimCard } from "react-icons/fa6";
 export default function Home() {
   return (
     // mobile mode
-    <div className="sm:hidden  flex flex-col   bg-gray-200">
+    <div className="sm:hidden  flex flex-col   ">
       <header className="bg-white h-12 sticky top-0 flex justify-between items-center">
         <div className="pr-2">
           <svg
