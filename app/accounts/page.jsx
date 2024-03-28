@@ -5,8 +5,9 @@ import Link from "next/link";
 function acount() {
   return (
     <div className="text-white">
-      <div className="flex items-center justify-evenly right-0  p-4 bg-white ">
-      <Link href="/">
+      <div className="flex  items-center justify-between   p-4 bg-white ">
+        <div className="flex flex-1">
+         <Link href="/">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -21,8 +22,13 @@ function acount() {
               d="m8.25 4.5 7.5 7.5-7.5 7.5"
             />
           </svg>
-        </Link>
-        <p className="text-slate-800">حساب ها</p>
+        </Link> 
+        </div>
+        <div className="flex flex-1 justify-center">
+         <p className="text-slate-800 ">حساب ها</p> 
+        </div>
+        <div className="flex flex-1"></div>
+        
       </div>
       <div className=" h-max flex flex-col items-  p-6 gap-y-4 mb-20  ">
         <div className="flex flex-col   bg-blue-400 rounded-md w-full p-4 gap-y-10">
