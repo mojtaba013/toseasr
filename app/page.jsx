@@ -43,7 +43,7 @@ export default function Home() {
       </header>
       <div className="mx-4 mb-24">
         {/* خدمات حساب */}
-        <div className=" flex flex-col  mt-3  rounded-md  bg-white text-right  ">
+        <div className=" flex flex-col  mt-3  rounded-lg  bg-white text-right  ">
           <h1 className="text-slate-800 pt-4 pr-4 pb-4">خدمات حساب</h1>
           <div className="flex flex-row flex-wrap gap-4 flex-1  px-6 pb-6">
             <div className="flex flex-col items-center text-slate-800">
@@ -164,7 +164,7 @@ export default function Home() {
           </div>
         </div>
         {/* اعتبارات */}
-        <div className=" flex flex-col  mt-3  rounded-md  bg-white text-right  ">
+        <div className=" flex flex-col  mt-3  rounded-lg  bg-white text-right  ">
           <h1 className="text-slate-800 pt-4 pr-4 pb-4">خدمات تسهیلات</h1>
           <div className="flex flex-row flex-wrap gap-4 flex-1   px-6 pb-6">
             <div className="flex flex-col items-center text-slate-800">
@@ -246,7 +246,7 @@ export default function Home() {
           </div>
         </div>
         {/* مخاطب پرتکرار */}
-        <div className=" flex flex-col  mt-3  rounded-md  bg-white text-right  ">
+        <div className=" flex flex-col  mt-3  rounded-lg  bg-white text-right  ">
           <h1 className="text-slate-800 pt-4 pr-4 pb-4">مخاطب های پرتکرار</h1>
           <div className="flex flex-row flex-wrap gap-4 flex-1   px-6 pb-6">
             <div className="flex flex-col items-center text-slate-800">
