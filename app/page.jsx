@@ -6,7 +6,7 @@ export default function Home() {
   return (
     // mobile mode
     <div className="sm:hidden  flex flex-col ">
-      <header className="bg-white h-12 sticky top-0 flex justify-between items-center">
+      <header className="bg-white p-4 sticky top-0 flex justify-between items-center">
         <div className="pr-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -285,7 +285,9 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <p className="text-xs font-bold text-slate-600">هادی حسینقلی زاده</p>
+              <p className="text-xs font-bold text-slate-600">
+                هادی حسینقلی زاده
+              </p>
             </div>
             <div className="flex flex-col items-center text-slate-800">
               <div className="flex items-center justify-center  w-16 h-16 bg-blue-100 rounded-full">
