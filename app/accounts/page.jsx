@@ -4,34 +4,33 @@ import Link from "next/link";
 
 function acount() {
   return (
-    <div className="text-white">
+    <div className="">
       <div className="flex  items-center justify-between   p-4 bg-white ">
         <div className="flex flex-1">
-         <Link href="/">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke={ICONCOLOR}
-            className="w-6 h-6"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="m8.25 4.5 7.5 7.5-7.5 7.5"
-            />
-          </svg>
-        </Link> 
+          <Link href="/">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke={ICONCOLOR}
+              className="w-6 h-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="m8.25 4.5 7.5 7.5-7.5 7.5"
+              />
+            </svg>
+          </Link>
         </div>
         <div className="flex flex-1 justify-center">
-         <p className="text-slate-800 ">حساب ها</p> 
+          <p className="text-slate-800 ">حساب ها</p>
         </div>
         <div className="flex flex-1"></div>
-        
       </div>
       <div className=" h-max flex flex-col items-  p-6 gap-y-4 mb-20  ">
-        <div className="flex flex-col   bg-blue-400 rounded-md w-full p-4 gap-y-10">
+        <div className="flex flex-col   bg-white rounded-lg w-full p-4 gap-y-10">
           <div className="flex justify-between  ">
             <p>پس انداز جامع</p>
             <div className="flex items-center gap-x-1">
@@ -40,7 +39,7 @@ function acount() {
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
-                stroke="#ffffff"
+                stroke={ICONCOLOR}
                 className="w-6 h-6"
               >
                 <path
@@ -67,7 +66,7 @@ function acount() {
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={2}
-                stroke="#ffffff"
+                stroke={ICONCOLOR}
                 className="w-4 h-4"
               >
                 <path
@@ -78,12 +77,12 @@ function acount() {
               </svg>
               <p>مانده</p>
             </div>
-            <div className="rounded-full border-2 border-white p-2">
+            <div className="rounded-full border-2 border-blue-300 p-2">
               <p>صورتحساب</p>
             </div>
           </div>
         </div>
-        <div className="flex flex-col   bg-blue-400 rounded-md w-full p-4 gap-y-10">
+        <div className="flex flex-col   bg-white rounded-lg w-full p-4 gap-y-10">
           <div className="flex justify-between  ">
             <p>پس انداز جامع</p>
             <div className="flex items-center gap-x-1">
@@ -92,7 +91,7 @@ function acount() {
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
-                stroke="#ffffff"
+                stroke={ICONCOLOR}
                 className="w-6 h-6"
               >
                 <path
@@ -119,7 +118,7 @@ function acount() {
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={2}
-                stroke="#ffffff"
+                stroke={ICONCOLOR}
                 className="w-4 h-4"
               >
                 <path
@@ -130,7 +129,7 @@ function acount() {
               </svg>
               <p>مانده</p>
             </div>
-            <div className="rounded-full border-2 border-white p-2">
+            <div className="rounded-full border-2 border-blue-300 p-2">
               <p>صورتحساب</p>
             </div>
           </div>

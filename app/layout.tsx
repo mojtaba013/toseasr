@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" dir="rtl" className={myFont.className}>
       {/* <body className={inter.className}>{children}</body> */}
-      <body className="bg-gray-100">
+      <body className="bg-gray-200">
         {children}
         <div className="bg-white sm:hidden flex shadow-[0_-4px_8px_0_rgba(0,0,0,0.1)]   flex-row items-center justify-between p-4 rounded-t-lg  fixed bottom-0 left-0 right-0 z-50 ">
           {/* کارتها */}
@@ -78,8 +78,8 @@ export default function RootLayout({
               {/* <img src="/public/images/logo.png"/> */}
             </div>
           </Link>
-          {/* تسهیلات */}
-          <Link href="/Tashilat">
+          {/* خدمات */}
+          <Link href="/services">
             <div className="flex flex-col items-center text-slate-500 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -95,7 +95,7 @@ export default function RootLayout({
                   d="M3.75 9.776c.112-.017.227-.026.344-.026h15.812c.117 0 .232.009.344.026m-16.5 0a2.25 2.25 0 0 0-1.883 2.542l.857 6a2.25 2.25 0 0 0 2.227 1.932H19.05a2.25 2.25 0 0 0 2.227-1.932l.857-6a2.25 2.25 0 0 0-1.883-2.542m-16.5 0V6A2.25 2.25 0 0 1 6 3.75h3.879a1.5 1.5 0 0 1 1.06.44l2.122 2.12a1.5 1.5 0 0 0 1.06.44H18A2.25 2.25 0 0 1 20.25 9v.776"
                 />
               </svg>
-              <p>تسهیلات</p>
+              <p>خدمات</p>
             </div>
           </Link>
           {/* profile */}

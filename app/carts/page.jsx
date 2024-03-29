@@ -5,7 +5,7 @@ import Link from "next/link";
 function Post() {
   return (
     <div className="">
-      <div className=" w-full flex  bg-white py-6 px-4 items-center justify-between">
+      <div className=" w-full flex  bg-white py-4 px-4 items-center justify-between">
         <Link href="/">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -40,7 +40,7 @@ function Post() {
         </svg>
       </div>
       <div className=" h-max flex flex-col items-  p-6 gap-y-4 mb-20  ">
-        <div className="flex flex-col   bg-blue-100 rounded-md w-full p-4 gap-y-10 text-slate-800">
+        <div className="flex flex-col   bg-white rounded-lg w-full p-4 gap-y-10 text-slate-800">
           <div className="flex justify-between  ">
             <p>حساب 2/69/0/149754</p>
             <div className="">
@@ -108,7 +108,7 @@ function Post() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col   bg-blue-100 rounded-md w-full p-4 gap-y-10 text-slate-800">
+        <div className="flex flex-col   bg-white rounded-lg w-full p-4 gap-y-10 text-slate-800">
           <div className="flex justify-between  ">
             <p>حساب 2/69/0/149754</p>
             <div className="">
@@ -176,7 +176,7 @@ function Post() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col   bg-blue-100 rounded-md w-full p-4 gap-y-10 text-slate-800">
+        <div className="flex flex-col   bg-white rounded-lg w-full p-4 gap-y-10 text-slate-800">
           <div className="flex justify-between  ">
             <p>حساب 2/69/0/149754</p>
             <div className="">
@@ -244,7 +244,7 @@ function Post() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col   bg-blue-100 rounded-md w-full p-4 gap-y-10 text-slate-800">
+        <div className="flex flex-col   bg-white rounded-lg w-full p-4 gap-y-10 text-slate-800">
           <div className="flex justify-between  ">
             <p>حساب 2/69/0/149754</p>
             <div className="">
