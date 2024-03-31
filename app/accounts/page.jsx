@@ -29,7 +29,7 @@ function acount() {
         </div>
         <div className="flex flex-1"></div>
       </div>
-      <div className=" h-max flex flex-col items-  p-6 gap-y-4 mb-20  ">
+      <div className=" h-max flex flex-col items-  p-4 gap-y-4 mb-20  ">
         <div className="flex flex-col   bg-white rounded-lg w-full p-4 gap-y-10">
           <div className="flex justify-between  ">
             <p>پس انداز جامع</p>

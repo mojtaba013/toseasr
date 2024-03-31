@@ -4,8 +4,8 @@ function Etebarat() {
   return (
     <div>
       <header className="bg-white text-center p-4">وام من</header>
-      <div className="mb-20">
-        <div className="p-4">
+      <div className="flex flex-col gap-y-4 mb-24 mt-4">
+        <div className="px-4">
           <div className="flex flex-col bg-white rounded-lg p-4 ">
             <div className="flex   justify-between mb-4">
               <h2>وام طرح عیدانه 97</h2>
@@ -38,14 +38,14 @@ function Etebarat() {
               <div className="text-center w-full">
                 <p className="text-blue-500">پرداخت</p>
               </div>
-              <p>|</p>
+              <p className="text-gray-300 font-bold">|</p>
               <div className="text-center w-full">
                 <p className="text-blue-500">جزئیات</p>
               </div>
             </div>
           </div>
         </div>
-        <div className="p-4">
+        <div className="px-4">
           <div className="flex flex-col bg-white rounded-lg p-4 ">
             <div className="flex  items-center justify-between mb-4">
               <h2>وام طرح اکرام </h2>
@@ -78,7 +78,7 @@ function Etebarat() {
               <div className="text-center w-full">
                 <p className="text-blue-500">پرداخت</p>
               </div>
-              <p>|</p>
+              <p className="text-gray-300 font-bold">|</p>
               <div className="text-center w-full">
                 <p className="text-blue-500">جزئیات</p>
               </div>
