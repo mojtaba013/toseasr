@@ -30,7 +30,7 @@ function Post() {
         <div className="flex flex-1"></div>
       </div>
       <div className=" h-max flex flex-col items-  p-4 gap-y-2 mb-20  ">
-        <div className="flex flex-col   bg-white rounded-2xl w-full p-4 gap-y-6 text-slate-800">
+        <div className="flex flex-col   bg-white rounded-2xl w-full p-4 gap-y-4 text-slate-800">
           <div className="flex justify-between text-lg ">
             <p>حساب 2/69/0/149754</p>
             <div className="">
@@ -60,6 +60,9 @@ function Post() {
             <p>9974</p>
             <p>6215</p>
             <p>2373</p>
+          </div>
+          <div className="text-center ">
+            <p>IR760170000000321537459006</p>
           </div>
           <div className="flex justify-between items-center">
             <div className="flex flex-row items-center gap-x-1">
@@ -97,7 +100,7 @@ function Post() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col   bg-white rounded-2xl w-full p-4 gap-y-6 text-slate-800">
+        <div className="flex flex-col   bg-white rounded-2xl w-full p-4 gap-y-4 text-slate-800">
           <div className="flex justify-between text-lg ">
             <p>حساب 2/69/0/149754</p>
             <div className="">
@@ -127,6 +130,9 @@ function Post() {
             <p>9974</p>
             <p>6215</p>
             <p>2373</p>
+          </div>
+          <div className="text-center ">
+            <p>IR760170000000321537459006</p>
           </div>
           <div className="flex justify-between items-center">
             <div className="flex flex-row items-center gap-x-1">
@@ -164,7 +170,7 @@ function Post() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col   bg-white rounded-2xl w-full p-4 gap-y-6 text-slate-800">
+        <div className="flex flex-col   bg-white rounded-2xl w-full p-4 gap-y-4 text-slate-800">
           <div className="flex justify-between text-lg ">
             <p>حساب 2/69/0/149754</p>
             <div className="">
@@ -194,6 +200,9 @@ function Post() {
             <p>9974</p>
             <p>6215</p>
             <p>2373</p>
+          </div>
+          <div className="text-center ">
+            <p>IR760170000000321537459006</p>
           </div>
           <div className="flex justify-between items-center">
             <div className="flex flex-row items-center gap-x-1">

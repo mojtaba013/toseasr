@@ -66,7 +66,7 @@ function Etebarat() {
                 <p className="text-blue-500">پرداخت</p>
               </div>
               {/* <p className="text-gray-300 font-bold">|</p> */}
-              <div className="text-center py-2 w-full border border-blue-200 rounded-lg bg-blue-100">
+              <div className="text-center py-2 w-full border border-blue-200 rounded-lg ">
                 <p className="text-blue-500">جزئیات</p>
               </div>
             </div>
@@ -109,7 +109,7 @@ function Etebarat() {
               </div>
 
               <div className="text-center w-full">
-                <p className="text-blue-500 py-2 border border-blue-200 rounded-lg bg-blue-100">
+                <p className="text-blue-500 py-2 border border-blue-200 rounded-lg ">
                   جزئیات
                 </p>
               </div>

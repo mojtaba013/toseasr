@@ -9,12 +9,7 @@ export default function Home() {
     <div className="sm:hidden  flex flex-col ">
       <header className="bg-white p-2 sticky top-0 flex justify-between items-center">
         <div>
-        <Image
-                src="/images/logo.png"
-                alt="zcfsdf"
-                width={50}
-                height={50}
-              />
+          <Image src="/images/logo.png" alt="zcfsdf" width={50} height={50} />
         </div>
         <div className="text-slate-800 text-lg font-medium ">
           قرض الحسنه توسعه عصر شمال
@@ -36,12 +31,10 @@ export default function Home() {
           </svg>
         </div>
       </header>
-      <div className="mx-4 mb-24">
+      <div className="flex flex-col gap-y-2 mx-4 mb-24 ">
         {/* خدمات حساب */}
-        <div className=" flex flex-col  mt-3  rounded-lg  bg-white text-right  ">
-          <p className="text-slate-800 font-bold pt-4 pr-4 pb-4">
-            خدمات حساب
-          </p>
+        <div className=" flex flex-col  mt-4  rounded-2xl  bg-white text-right  ">
+          <p className="text-slate-800 font-bold pt-4 pr-4 pb-4">خدمات حساب</p>
           <div className="flex flex-row items-center justify-between  px-6 pb-6">
             <div className="flex flex-col items-center text-slate-800">
               <div className="flex items-center justify-center  w-16 h-16 bg-blue-100 border border-blue-200  rounded-full">
@@ -122,7 +115,7 @@ export default function Home() {
           </div>
         </div>
         {/* اعتبارات */}
-        <div className=" flex flex-col  mt-3  rounded-lg  bg-white text-right  ">
+        <div className=" flex flex-col    rounded-2xl  bg-white text-right  ">
           <p className="text-slate-800 font-bold pt-4 pr-4 pb-4">
             خدمات تسهیلات
           </p>
@@ -170,7 +163,7 @@ export default function Home() {
           </div>
         </div>
         {/* مخاطب پرتکرار */}
-        <div className=" flex flex-col  mt-3  rounded-lg  bg-white text-right  ">
+        <div className=" flex flex-col    rounded-2xl  bg-white text-right  ">
           <p className="text-slate-800 font-bold pt-4 pr-4 pb-4">
             مخاطب های پرتکرار
           </p>
