@@ -77,8 +77,8 @@ function acount() {
               </svg>
               <p>مانده</p>
             </div>
-            <div className="rounded-full border-2 border-blue-300 p-2">
-              <p>صورتحساب</p>
+            <div className="rounded-full bg-blue-100 border-2 border-blue-300 p-2">
+              <p className="">صورتحساب</p>
             </div>
           </div>
         </div>
@@ -129,7 +129,7 @@ function acount() {
               </svg>
               <p>مانده</p>
             </div>
-            <div className="rounded-full border-2 border-blue-300 p-2">
+            <div className="rounded-full border-2 bg-blue-100 border-blue-300 p-2">
               <p>صورتحساب</p>
             </div>
           </div>

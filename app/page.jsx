@@ -7,24 +7,18 @@ export default function Home() {
   return (
     // mobile mode
     <div className="sm:hidden  flex flex-col ">
-      <header className="bg-white p-4 sticky top-0 flex justify-between items-center">
-        <div className="pr-2">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke={ICONCOLOR}
-            className="w-6 h-6"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
-            />
-          </svg>
+      <header className="bg-white p-2 sticky top-0 flex justify-between items-center">
+        <div>
+        <Image
+                src="/images/logo.png"
+                alt="zcfsdf"
+                width={50}
+                height={50}
+              />
         </div>
-        <div className="text-slate-800">قرض الحسنه توسعه عصر شمال</div>
+        <div className="text-slate-800 text-lg font-medium ">
+          قرض الحسنه توسعه عصر شمال
+        </div>
         <div className="pl-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +26,7 @@ export default function Home() {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="w-6 h-6"
+            className="w-7 h-7"
           >
             <path
               strokeLinecap="round"
@@ -45,19 +39,19 @@ export default function Home() {
       <div className="mx-4 mb-24">
         {/* خدمات حساب */}
         <div className=" flex flex-col  mt-3  rounded-lg  bg-white text-right  ">
-          <p className="text-slate-800 font-medium pt-4 pr-4 pb-4">
+          <p className="text-slate-800 font-bold pt-4 pr-4 pb-4">
             خدمات حساب
           </p>
           <div className="flex flex-row items-center justify-between  px-6 pb-6">
             <div className="flex flex-col items-center text-slate-800">
-              <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-full">
+              <div className="flex items-center justify-center  w-16 h-16 bg-blue-100 border border-blue-200  rounded-full">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke={ICONCOLOR}
-                  className="w-6 h-6"
+                  className="w-7 h-7"
                 >
                   <path
                     strokeLinecap="round"
@@ -69,14 +63,14 @@ export default function Home() {
               <p className="text-sm font-medium text-slate-600">انتقال پول</p>
             </div>
             <div className="flex flex-col items-center text-slate-800">
-              <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-full">
+              <div className="flex items-center justify-center  w-16 h-16 bg-blue-100 border border-blue-200 rounded-full">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke={ICONCOLOR}
-                  className="w-6 h-6"
+                  className="w-7 h-7"
                 >
                   <path
                     strokeLinecap="round"
@@ -88,14 +82,14 @@ export default function Home() {
               <p className="text-sm font-medium text-slate-600">ساتنا پایا</p>
             </div>
             <div className="flex flex-col items-center text-slate-800">
-              <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-full">
+              <div className="flex items-center justify-center  w-16 h-16 bg-blue-100 border border-blue-200 rounded-full">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke={ICONCOLOR}
-                  className="w-6 h-6"
+                  className="w-7 h-7"
                 >
                   <path
                     strokeLinecap="round"
@@ -107,14 +101,14 @@ export default function Home() {
               <p className="text-sm font-medium text-slate-600">صورتحساب</p>
             </div>
             <div className="flex flex-col items-center text-slate-800">
-              <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-full">
+              <div className="flex items-center justify-center  w-16 h-16 bg-blue-100 border border-blue-200 rounded-full">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth={3}
                   stroke={ICONCOLOR}
-                  className="w-8 h-8"
+                  className="w-7 h-7"
                 >
                   <path
                     strokeLinecap="round"
@@ -129,19 +123,19 @@ export default function Home() {
         </div>
         {/* اعتبارات */}
         <div className=" flex flex-col  mt-3  rounded-lg  bg-white text-right  ">
-          <p className="text-slate-800 font-medium pt-4 pr-4 pb-4">
+          <p className="text-slate-800 font-bold pt-4 pr-4 pb-4">
             خدمات تسهیلات
           </p>
           <div className="flex flex-row flex-wrap gap-4 flex-1   px-6 pb-6">
             <div className="flex flex-col items-center text-slate-800">
-              <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-full">
+              <div className="flex items-center justify-center  w-16 h-16 bg-blue-100 border border-blue-200 rounded-full">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke={ICONCOLOR}
-                  className="w-6 h-6"
+                  className="w-7 h-7"
                 >
                   <path
                     strokeLinecap="round"
@@ -150,17 +144,19 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <p className="text-sm font-medium text-slate-600">معدل گیری</p>
+              <Link href="/etebarat/average">
+                <p className="text-sm font-medium text-slate-600">معدل گیری</p>
+              </Link>
             </div>
             <div className="flex flex-col items-center text-slate-800">
-              <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-full">
+              <div className="flex items-center justify-center  w-16 h-16 bg-blue-100 border border-blue-200 rounded-full">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke={ICONCOLOR}
-                  className="w-6 h-6"
+                  className="w-7 h-7"
                 >
                   <path
                     strokeLinecap="round"
@@ -175,19 +171,19 @@ export default function Home() {
         </div>
         {/* مخاطب پرتکرار */}
         <div className=" flex flex-col  mt-3  rounded-lg  bg-white text-right  ">
-          <p className="text-slate-800 font-medium pt-4 pr-4 pb-4">
+          <p className="text-slate-800 font-bold pt-4 pr-4 pb-4">
             مخاطب های پرتکرار
           </p>
           <div className="flex flex-row flex-wrap gap-4 flex-1   px-6 pb-6">
             <div className="flex flex-col items-center text-slate-800">
-              <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-full">
+              <div className="flex items-center justify-center  w-16 h-16 bg-blue-100 border border-blue-200 rounded-full">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke={ICONCOLOR}
-                  className="w-6 h-6"
+                  className="w-7 h-7"
                 >
                   <path
                     strokeLinecap="round"
@@ -199,14 +195,14 @@ export default function Home() {
               <p className="text-sm font-medium text-slate-600">مجتبی کجوری</p>
             </div>
             <div className="flex flex-col items-center text-slate-800">
-              <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-full">
+              <div className="flex items-center justify-center  w-16 h-16 bg-blue-100 border border-blue-200 rounded-full">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke={ICONCOLOR}
-                  className="w-6 h-6"
+                  className="w-7 h-7"
                 >
                   <path
                     strokeLinecap="round"
@@ -218,14 +214,14 @@ export default function Home() {
               <p className="text-sm font-medium text-slate-600">مجتبی کجوری</p>
             </div>
             <div className="flex flex-col items-center text-slate-800">
-              <div className="flex items-center justify-center  w-16 h-16 bg-gray-100 rounded-full">
+              <div className="flex items-center justify-center  w-16 h-16 bg-blue-100 border border-blue-200 rounded-full">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke={ICONCOLOR}
-                  className="w-6 h-6"
+                  className="w-7 h-7"
                 >
                   <path
                     strokeLinecap="round"

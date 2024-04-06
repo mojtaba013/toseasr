@@ -5,46 +5,35 @@ import Link from "next/link";
 function Post() {
   return (
     <div className="">
-      <div className=" w-full flex  bg-white py-4 px-4 items-center justify-between">
-        <Link href="/">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke={ICONCOLOR}
-            className="w-6 h-6"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="m8.25 4.5 7.5 7.5-7.5 7.5"
-            />
-          </svg>
-        </Link>
-
-        <p>کارت ها</p>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth={1.5}
-          stroke={ICONCOLOR}
-          className="w-6 h-6"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z"
-          />
-        </svg>
+       <div className="flex  items-center justify-between   p-4 bg-white ">
+        <div className="flex flex-1">
+          <Link href="/">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke={ICONCOLOR}
+              className="w-6 h-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="m8.25 4.5 7.5 7.5-7.5 7.5"
+              />
+            </svg>
+          </Link>
+        </div>
+        <div className="flex flex-1 justify-center">
+          <p className="text-slate-800 ">کارت ها</p>
+        </div>
+        <div className="flex flex-1"></div>
       </div>
       <div className=" h-max flex flex-col items-  p-4 gap-y-4 mb-20  ">
         <div className="flex flex-col   bg-white rounded-lg w-full p-4 gap-y-10 text-slate-800">
           <div className="flex justify-between  ">
             <p>حساب 2/69/0/149754</p>
             <div className="">
-              
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -112,7 +101,6 @@ function Post() {
           <div className="flex justify-between  ">
             <p>حساب 2/69/0/149754</p>
             <div className="">
-              
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -180,7 +168,6 @@ function Post() {
           <div className="flex justify-between  ">
             <p>حساب 2/69/0/149754</p>
             <div className="">
-              
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -248,7 +235,6 @@ function Post() {
           <div className="flex justify-between  ">
             <p>حساب 2/69/0/149754</p>
             <div className="">
-             
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
