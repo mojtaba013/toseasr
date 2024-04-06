@@ -1,9 +1,34 @@
 import React from "react";
+import Link from "next/link";
+import { ICONCOLOR } from "@/utils/constants";
 
 function Etebarat() {
   return (
     <div>
-      <header className="bg-white text-center p-4">وام من</header>
+          <div className="flex  items-center justify-between   p-4 bg-white ">
+        <div className="flex flex-1">
+          <Link href="/">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke={ICONCOLOR}
+              className="w-6 h-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="m8.25 4.5 7.5 7.5-7.5 7.5"
+              />
+            </svg>
+          </Link>
+        </div>
+        <div className="flex flex-1 justify-center">
+          <p className="text-slate-800 ">وام های من</p>
+        </div>
+        <div className="flex flex-1"></div>
+      </div>
       <div className="flex flex-col gap-y-4 mb-24 mt-4">
         <div className="px-4">
           <div className="flex flex-col bg-white rounded-lg p-4 ">

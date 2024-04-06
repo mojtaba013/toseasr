@@ -78,7 +78,7 @@ function acount() {
               <p>مانده</p>
             </div>
             <div className="rounded-full bg-blue-100 border-2 border-blue-300 p-2">
-              <p className="">صورتحساب</p>
+              <p className="text-blue-500">صورتحساب</p>
             </div>
           </div>
         </div>
@@ -130,7 +130,7 @@ function acount() {
               <p>مانده</p>
             </div>
             <div className="rounded-full border-2 bg-blue-100 border-blue-300 p-2">
-              <p>صورتحساب</p>
+              <p className="text-blue-500">صورتحساب</p>
             </div>
           </div>
         </div>
