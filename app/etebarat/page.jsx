@@ -61,13 +61,13 @@ function Etebarat() {
               </div>
             </div>
             <div className="border-b-2 border-gray-200 w-full mb-4"></div>
-            <div className="flex gap-x-12 items-center justify-between   text-slate-800">
+            <div className="flex flex-row-reverse gap-x-12 items-center justify-between   text-slate-800">
               <div className="text-center py-2 w-full border-2 border-blue-200 rounded-lg bg-blue-100">
-                <p className="text-blue-500">پرداخت</p>
+                <p className="text-blue-600">پرداخت</p>
               </div>
-              {/* <p className="text-gray-300 font-bold">|</p> */}
+             
               <div className="text-center py-2 w-full border-2 border-blue-200 rounded-lg ">
-                <p className="text-blue-500">جزئیات</p>
+                <p className="text-blue-600">جزئیات</p>
               </div>
             </div>
           </div>
@@ -101,17 +101,13 @@ function Etebarat() {
               </div>
             </div>
             <div className="border-b-2 border-gray-200 w-full mb-4"></div>
-            <div className="flex gap-x-10 items-center justify-between   text-slate-800">
-              <div className="text-center w-full">
-                <p className="text-blue-500 py-2  border-2 border-blue-200 rounded-lg bg-blue-100">
-                  پرداخت
-                </p>
+            <div className="flex flex-row-reverse gap-x-12 items-center justify-between   text-slate-800">
+              <div className="text-center py-2 w-full border-2 border-blue-200 rounded-lg bg-blue-100">
+                <p className="text-blue-600">پرداخت</p>
               </div>
-
-              <div className="text-center w-full">
-                <p className="text-blue-500 py-2 border-2 border-blue-200 rounded-lg ">
-                  جزئیات
-                </p>
+             
+              <div className="text-center py-2 w-full border-2 border-blue-200 rounded-lg ">
+                <p className="text-blue-600">جزئیات</p>
               </div>
             </div>
           </div>

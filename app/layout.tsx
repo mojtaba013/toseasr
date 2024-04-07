@@ -24,10 +24,10 @@ export default function RootLayout({
       {/* <body className={inter.className}>{children}</body> */}
       <body className="bg-gray-200">
         {children}
-        <div className="bg-white sm:hidden flex  shadow-[0_-4px_8px_0_rgba(0,0,0,0.1)]   flex-row items-center justify-between p-4 rounded-t-xl  fixed bottom-0 left-0 right-0 z-50 ">
+        <div className="bg-white sm:hidden text-sm flex  shadow-[0_-4px_8px_0_rgba(0,0,0,0.1)]   flex-row items-center justify-between p-4 rounded-t-2xl  fixed bottom-0 left-0 right-0 z-50 ">
           {/* کارتها */}
           <Link href="/carts">
-            <div className="flex flex-col items-center text-slate-500 ">
+            <div className="flex flex-col items-center text-slate-500 cursor-pointer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -48,7 +48,7 @@ export default function RootLayout({
           </Link>
           {/* حسابها */}
           <Link href="/accounts">
-            <div className="flex flex-col items-center text-slate-500 ">
+            <div className="flex flex-col items-center text-slate-500 cursor-pointer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -68,7 +68,7 @@ export default function RootLayout({
           </Link>
           {/* صفحه اصلی */}
           <Link href="/">
-            <div className="flex flex-col items-center text-slate-500 ">
+            <div className="flex flex-col items-center text-slate-500 cursor-pointer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -108,7 +108,7 @@ export default function RootLayout({
           </Link> */}
           {/* تسهیلات */}
           <Link href="/etebarat">
-            <div className="flex flex-col items-center text-slate-500 ">
+            <div className="flex flex-col items-center text-slate-500 cursor-pointer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -129,7 +129,7 @@ export default function RootLayout({
           </Link>
           {/* profile */}
           <Link href="/profile">
-            <div className="flex flex-col items-center text-slate-500 ">
+            <div className="flex flex-col items-center text-slate-500 cursor-pointer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

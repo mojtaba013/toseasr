@@ -31,7 +31,7 @@ function Post() {
       </div>
       <div className=" h-max flex flex-col items-  p-4 gap-y-2 mb-20  ">
         <div className="flex flex-col   bg-white rounded-2xl w-full p-4 gap-y-4 text-slate-800">
-          <div className="flex justify-between text-lg ">
+          <div className="flex justify-between text-base ">
             <p>حساب 2/69/0/149754</p>
             <div className="">
               <svg
@@ -101,7 +101,7 @@ function Post() {
           </div>
         </div>
         <div className="flex flex-col   bg-white rounded-2xl w-full p-4 gap-y-4 text-slate-800">
-          <div className="flex justify-between text-lg ">
+          <div className="flex justify-between  ">
             <p>حساب 2/69/0/149754</p>
             <div className="">
               <svg
@@ -171,7 +171,7 @@ function Post() {
           </div>
         </div>
         <div className="flex flex-col   bg-white rounded-2xl w-full p-4 gap-y-4 text-slate-800">
-          <div className="flex justify-between text-lg ">
+          <div className="flex justify-between  ">
             <p>حساب 2/69/0/149754</p>
             <div className="">
               <svg
