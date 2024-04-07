@@ -31,7 +31,7 @@ function Etebarat() {
       </div>
       <div className="flex flex-col gap-y-4 mb-24 mt-4">
         <div className="px-4">
-          <div className="flex flex-col bg-white rounded-lg p-4 ">
+          <div className="flex flex-col bg-white rounded-2xl p-4 ">
             <div className="flex   justify-between mb-4">
               <p className="text-slate-800 font-bold text-lg">
                 وام طرح عیدانه 97
@@ -73,7 +73,7 @@ function Etebarat() {
           </div>
         </div>
         <div className="px-4">
-          <div className="flex flex-col bg-white rounded-lg p-4 ">
+          <div className="flex flex-col bg-white rounded-2xl p-4 ">
             <div className="flex  items-center justify-between mb-4">
               <p className="text-slate-800 font-bold text-lg">وام طرح اکرام </p>
               <p className="text-sm">شعبه مرکزی</p>
