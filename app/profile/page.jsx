@@ -29,17 +29,17 @@ function profile() {
         </div>
         <div className="flex flex-1"></div>
       </div>
-      <div className="flex flex-col gap-y-2 p-4 text-sm">
+      <div className="flex flex-col gap-y-2 p-4 ">
         <div className="bg-white rounded-xl flex items-center justify-between px-4 py-2">
-          <div className="flex flex-row gap-x-4 ">
-            <div className="bg-gray-100 rounded-full flex items-center justify-center p-3 text-slate-500">
+          <div className="flex flex-row items-center gap-x-2 ">
+            <div className="bg-gray-100 rounded-full w-10 h-10 flex items-center justify-center  text-slate-500">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-4 h-4"
+                className="w-6 h-6 "
               >
                 <path
                   strokeLinecap="round"
@@ -49,8 +49,8 @@ function profile() {
               </svg>
             </div>
             <div className="flex flex-col ">
-              <p>مجتبی کجوری</p>
-              <p className="text-slate-500">09398516343</p>
+              <p className="text-slate-800">مجتبی کجوری</p>
+              <p className="text-slate-500 text-sm">09398516343</p>
             </div>
           </div>
           <div>
@@ -72,7 +72,7 @@ function profile() {
         </div>
         <div className="bg-white rounded-xl flex flex-col text-slate-800   px-4 py-2 gap-y-4">
           <div className="flex justify-between items-center">
-            <div className="flex gap-x-4">
+            <div className="flex gap-x-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -106,7 +106,7 @@ function profile() {
             </svg>
           </div>
           <div className="flex justify-between items-center">
-            <div className="flex gap-x-4">
+            <div className="flex gap-x-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -139,7 +139,7 @@ function profile() {
             </svg>
           </div>
           <div className="flex justify-between items-center">
-            <div className="flex gap-x-4">
+            <div className="flex gap-x-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -155,7 +155,7 @@ function profile() {
                 />
               </svg>
 
-              <p>نظرات و پیشنهادهای شما</p>
+              <p>نظرات و پیشنهادات </p>
             </div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -174,7 +174,7 @@ function profile() {
           </div>
         </div>
         <div className="flex items-center justify-between bg-white px-4 py-2 rounded-xl">
-          <div className="flex flex-row gap-x-4">
+          <div className="flex flex-row gap-x-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
