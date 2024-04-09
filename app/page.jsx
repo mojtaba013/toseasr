@@ -138,7 +138,7 @@ export default function Home() {
                 </svg>
               </div>
               <Link href="/etebarat/average">
-                <p className="text-sm font-medium text-slate-600">معدل گیری</p>
+                <p className="text-sm font-medium text-slate-600">معدل حساب</p>
               </Link>
             </div>
             <div className="flex flex-col items-center text-slate-800">

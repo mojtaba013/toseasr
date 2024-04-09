@@ -55,7 +55,7 @@ function Post() {
               </svg>
             </div>
           </div>
-          <div className="flex flex-row-reverse px-4 text-xl items-center justify-around font-bold">
+          <div className="flex flex-row-reverse px-4 text-lg items-center justify-around font-bold">
             <p>6037</p>
             <p>9974</p>
             <p>6215</p>
@@ -125,7 +125,7 @@ function Post() {
               </svg>
             </div>
           </div>
-          <div className="flex flex-row-reverse px-4 text-xl items-center justify-around font-bold">
+          <div className="flex flex-row-reverse px-4 text-lg items-center justify-around font-bold">
             <p>6037</p>
             <p>9974</p>
             <p>6215</p>
@@ -195,7 +195,7 @@ function Post() {
               </svg>
             </div>
           </div>
-          <div className="flex flex-row-reverse px-4 text-xl items-center justify-around font-bold">
+          <div className="flex flex-row-reverse px-4 text-lg items-center justify-around font-bold">
             <p>6037</p>
             <p>9974</p>
             <p>6215</p>

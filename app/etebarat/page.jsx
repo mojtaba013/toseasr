@@ -62,11 +62,11 @@ function Etebarat() {
             </div>
             <div className="border-b-2 border-gray-200 w-full mb-4"></div>
             <div className="flex flex-row-reverse gap-x-12 items-center justify-between   text-slate-800">
-              <div className="text-center py-2 w-full border-2 border-blue-200 rounded-lg bg-blue-100">
+              <div className="text-center py-2 w-full border-2 border-blue-300 rounded-lg bg-blue-100">
                 <p className="text-blue-600">پرداخت</p>
               </div>
              
-              <div className="text-center py-2 w-full border-2 border-blue-200 rounded-lg ">
+              <div className="text-center py-2 w-full border-2 border-blue-300 rounded-lg ">
                 <p className="text-blue-600">جزئیات</p>
               </div>
             </div>
@@ -102,11 +102,11 @@ function Etebarat() {
             </div>
             <div className="border-b-2 border-gray-200 w-full mb-4"></div>
             <div className="flex flex-row-reverse gap-x-12 items-center justify-between   text-slate-800">
-              <div className="text-center py-2 w-full border-2 border-blue-200 rounded-lg bg-blue-100">
+              <div className="text-center py-2 w-full border-2 border-blue-300 rounded-lg bg-blue-100">
                 <p className="text-blue-600">پرداخت</p>
               </div>
              
-              <div className="text-center py-2 w-full border-2 border-blue-200 rounded-lg ">
+              <div className="text-center py-2 w-full border-2 border-blue-300 rounded-lg ">
                 <p className="text-blue-600">جزئیات</p>
               </div>
             </div>
