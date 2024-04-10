@@ -37,6 +37,7 @@ export default function Home() {
           <p className="text-slate-800 font-bold pt-4 pr-4 pb-4">خدمات حساب</p>
           <div className="flex flex-row items-center justify-between  px-6 pb-6">
             <div className="flex flex-col items-center text-slate-800">
+              <Link href="/Moneytransfer">
               <div className="flex items-center justify-center  w-16 h-16 bg-blue-100 border border-blue-200  rounded-full">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -53,6 +54,7 @@ export default function Home() {
                   />
                 </svg>
               </div>
+              </Link>
               <p className="text-sm font-medium text-slate-600">انتقال پول</p>
             </div>
             <div className="flex flex-col items-center text-slate-800">
