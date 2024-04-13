@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import localFont from "next/font/local";
-import Image from "next/image";
-import Link from "next/link";
 import MainNavigation from "./MainNavigation";
+
 const myFont = localFont({
   src: "./../public/fonts/Yekan.woff",
 });
@@ -22,10 +20,11 @@ export default function RootLayout({
   return (
     <html lang="en" dir="rtl" className={myFont.className}>
       {/* <body className={inter.className}>{children}</body> */}
-      <body className="bg-gray-200">{children}
-      <MainNavigation />
+      <body className="bg-gray-200">
+        {children}
+
+        <MainNavigation />
       </body>
-      
     </html>
   );
 }
