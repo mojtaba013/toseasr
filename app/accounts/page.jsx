@@ -148,14 +148,17 @@ function acount() {
               </svg>
             </div>
           </div>
+         
           <div className="flex justify-between items-center border-t-2 border-gray-200 px-4 py-2 text-blue-500">
             <div className="flex flex-1 justify-center border-l-2 border-gray-200">
               <p>انتقال پول</p>
             </div>
 
-            <div className="flex flex-1 justify-center border-l-2 border-gray-200 ">
-              <p className="">صورتحساب</p>
-            </div>
+           
+              <div className="flex flex-1 justify-center border-l-2 border-gray-200 ">
+                <p className="">صورتحساب</p>
+              </div>
+           
 
             <div className="flex flex-1  justify-center">
               <p>بیشتر</p>

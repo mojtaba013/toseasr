@@ -48,7 +48,7 @@ function Moneytransfer() {
           </Link>
         </div>
         <div className="flex flex-1 justify-center">
-          <p className="text-slate-800 ">کارت ها</p>
+          <p className="text-slate-800 ">انتقال پول</p>
         </div>
         <div className="flex flex-1"></div>
       </div>
