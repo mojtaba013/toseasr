@@ -4,8 +4,8 @@ import { ICONCOLOR } from "../../utils/constants";
 
 function Bill() {
   return (
-    <div className="flex flex-col gap-y-4  h-max mb-[70px] scroll-auto bg-white ">
-<div className="flex  items-center justify-between p-4 border-b border-gray-300 mb-3">
+    <div className="flex flex-col gap-y-4   h-max mb-[70px] scroll-auto bg-white ">
+      <div className="flex  items-center justify-between p-4 border-b border-gray-300 mb-3">
         <div className="flex flex-1">
           <Link href="/">
             <svg
@@ -29,7 +29,6 @@ function Bill() {
         </div>
         <div className="flex flex-1"></div>
       </div>
-
 
       <div className="flex flex-row justify-between items-center px-4 gap-x-1">
         <label htmlFor="shoobe">شعبه:</label>
@@ -105,31 +104,40 @@ function Bill() {
       </div>
       <div className="p-4">
         <div className="flex flex-col gap-y-1  pb-4 mb-2 border-b border-gray-300">
-            <p className="text-slate-800">برداشت</p>
-            <p className="text-red-600 font-bold">100,000,000</p>
-            <div className="flex flex-row gap-x-1 text-gray-500">
-                <p>1403/01/01</p>
-                <p>ساعت 11:38</p>
-            </div>
-            <p className="text-gray-500">شماره پیگیری 456789</p>
+          <p className="text-slate-800">برداشت</p>
+          <p className="text-red-500 font-bold">100,000,000 ریال</p>
+          <div className="flex flex-row gap-x-1 text-gray-500 text-sm">
+            <p>1403/01/01</p>
+            <p>ساعت 11:38</p>
+          </div>
+          <p className="text-gray-500 text-sm">شماره پیگیری 456789</p>
         </div>
         <div className="flex flex-col gap-y-1  pb-4 mb-2 border-b border-gray-300">
-            <p className="text-slate-800">واریز</p>
-            <p className="text-green-600 font-bold">50,000,000</p>
-            <div className="flex flex-row gap-x-1 text-gray-500">
-                <p>1403/01/12</p>
-                <p>ساعت 9:20</p>
-            </div>
-            <p className="text-gray-500">شماره پیگیری 123698</p>
+          <p className="text-slate-800">واریز</p>
+          <p className="text-green-500 font-bold">50,000,000 ریال</p>
+          <div className="flex flex-row gap-x-1 text-gray-500 text-sm">
+            <p>1403/01/12</p>
+            <p>ساعت 9:20</p>
+          </div>
+          <p className="text-gray-500 text-sm">شماره پیگیری 123698</p>
         </div>
-        <div className="flex flex-col gap-y-1  pb-4 ">
-            <p className="text-slate-800">برداشت</p>
-            <p className="text-red-600 font-bold">6,000,000</p>
-            <div className="flex flex-row gap-x-1 text-gray-500">
-                <p>1403/01/22</p>
-                <p>ساعت 12:44</p>
-            </div>
-            <p className="text-gray-500">شماره پیگیری 741852</p>
+        <div className="flex flex-col gap-y-1  pb-4 border-b border-gray-300">
+          <p className="text-slate-800">برداشت</p>
+          <p className="text-red-500 font-bold">6,000,000 ریال</p>
+          <div className="flex flex-row gap-x-1 text-gray-500 text-sm">
+            <p>1403/01/22</p>
+            <p>ساعت 12:44</p>
+          </div>
+          <p className="text-gray-500 text-sm">شماره پیگیری 741852</p>
+        </div>
+        <div className="flex flex-col gap-y-1  pb-4 mb-2 ">
+          <p className="text-slate-800">واریز</p>
+          <p className="text-green-500 font-bold">35,000,000 ریال</p>
+          <div className="flex flex-row gap-x-1 text-gray-500 text-sm">
+            <p>1403/01/07</p>
+            <p>ساعت 7:55</p>
+          </div>
+          <p className="text-gray-500 text-sm">شماره پیگیری 852123</p>
         </div>
       </div>
     </div>
