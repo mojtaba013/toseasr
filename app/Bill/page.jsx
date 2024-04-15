@@ -29,7 +29,6 @@ function Bill() {
         </div>
         <div className="flex flex-1"></div>
       </div>
-
       <div className="flex flex-row justify-between items-center px-4 gap-x-1">
         <label htmlFor="shoobe">شعبه:</label>
         <select
