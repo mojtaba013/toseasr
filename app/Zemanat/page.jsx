@@ -88,7 +88,7 @@ function Zemanat() {
         </div>
       </div>
       <div className="flex flex-col   pb-4 mb-2 border-b border-gray-300">
-        <div className="flex gap-x-1 items-center text-lg">
+        <div className="flex gap-x-1 items-center text-lg mb-2">
           <p className="text-slate-500">شعبه:</p>
           <p className="text-slate-800 font-bold">کشاورز</p>
         </div>

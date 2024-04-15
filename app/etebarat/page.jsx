@@ -36,28 +36,28 @@ function Etebarat() {
               <p className="text-slate-800 font-bold text-lg">
                 وام طرح عیدانه 97
               </p>
-              <p className="text-sm">شعبه کشاورز</p>
+              <p className="text-sm text-blue-500">شعبه کشاورز</p>
             </div>
             <div className="flex  flex-col gap-y-2 mb-4">
               <div className="flex gap-x-1">
                 <p className="text-slate-500">وام گیرنده:</p>
-                <p>مجتبی کجوری</p>
+                <p className="font-bold">مجتبی کجوری</p>
               </div>
               <div className="flex items-center gap-x-1">
                 <p className="text-slate-500">شماره وام:</p>
-                <p>2/6/20/145711</p>
+                <p className="font-bold">2/6/20/145711</p>
               </div>
               <div className="flex items-center gap-x-1">
                 <p className="text-slate-500">مبلغ وام:</p>
-                <p>100,000,000</p>
+                <p className="font-bold">100,000,000</p>
               </div>
               <div className="flex items-center  gap-x-1">
                 <p className="text-slate-500">مانده وام:</p>
-                <p>50,000,000</p>
+                <p className="font-bold">50,000,000</p>
               </div>
               <div className="flex items-center gap-x-1">
                 <p className="text-slate-500">سررسید قسط بعدی:</p>
-                <p>1403/02/25</p>
+                <p className="font-bold">1403/02/25</p>
               </div>
             </div>
             <div className="border-b-2 border-gray-200 w-full mb-4"></div>
@@ -76,28 +76,28 @@ function Etebarat() {
           <div className="flex flex-col bg-white rounded-2xl p-4 ">
             <div className="flex  items-center justify-between mb-4">
               <p className="text-slate-800 font-bold text-lg">وام طرح اکرام </p>
-              <p className="text-sm">شعبه مرکزی</p>
+              <p className="text-sm text-blue-500">شعبه مرکزی</p>
             </div>
             <div className="flex  flex-col gap-y-2 mb-4">
               <div className="flex gap-x-1">
                 <p className="text-slate-500">وام گیرنده:</p>
-                <p>مجتبی کجوری</p>
+                <p className="font-bold">مجتبی کجوری</p>
               </div>
               <div className="flex items-center gap-x-1">
                 <p className="text-slate-500">شماره وام:</p>
-                <p>1/6/200/155610</p>
+                <p className="font-bold">1/6/200/155610</p>
               </div>
               <div className="flex items-center gap-x-1">
                 <p className="text-slate-500">مبلغ وام:</p>
-                <p>100,000,000</p>
+                <p className="font-bold">100,000,000</p>
               </div>
               <div className="flex items-center  gap-x-1">
                 <p className="text-slate-500">مانده وام:</p>
-                <p>50,000,000</p>
+                <p className="font-bold">50,000,000</p>
               </div>
               <div className="flex items-center gap-x-1">
                 <p className="text-slate-500">سررسید قسط بعدی:</p>
-                <p>1403/02/25</p>
+                <p className="font-bold">1403/02/25</p>
               </div>
             </div>
             <div className="border-b-2 border-gray-200 w-full mb-4"></div>
