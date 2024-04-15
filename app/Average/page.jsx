@@ -103,74 +103,74 @@ function Average() {
           </div>
         </div>
         <div className="flex flex-col   pb-4 mb-2 border-b border-gray-300">
-          <div className="flex gap-x-1 items-center">
+          <div className="flex gap-x-1 items-center text-lg">
             <p className="text-slate-500">مبلغ:</p>
-            <p className="text-slate-800 ">200,000,000 ریال</p>
+            <p className="text-blue-500 font-bold">200,000,000 ریال</p>
           </div>
-          <div className="flex flex-col gap-y-1 text-sm">
+          <div className="flex flex-col gap-y-1 text-base">
             <div className="flex gap-x-1 items-center">
               <p className="text-slate-500">بازپرداخت:</p>
-              <p className="text-slate-800 ">12 ماه</p>
+              <p className="text-slate- font-bold ">12 ماه</p>
             </div>
             <div className="flex gap-x-1 items-center">
-              <p className="text-slate-500">مبلغ قسط:</p>
-              <p className="text-slate-800 ">18,000,000 ریال</p>
+              <p className="text-slate-500">قسط:</p>
+              <p className="text-slate- font-bold ">18,000,000 ریال</p>
             </div>
             <div className="flex gap-x-1 items-center">
               <p className="text-slate-500">کارمزد:</p>
-              <p className="text-slate-800 ">2,000,000 ریال</p>
+              <p className="text-slate-800 font-bold ">2,000,000 ریال</p>
             </div>
             <div className="flex gap-x-1 items-center">
               <p className="text-slate-500">نرخ کارمزد:</p>
-              <p className="text-slate-800 ">%1</p>
+              <p className="text-red-500 font-bold ">%1</p>
             </div>
           </div>
         </div>
         <div className="flex flex-col   pb-4 mb-2 border-b border-gray-300">
-          <div className="flex gap-x-1 items-center">
+          <div className="flex gap-x-1 items-center text-lg">
             <p className="text-slate-500">مبلغ:</p>
-            <p className="text-slate-800 ">200,000,000 ریال</p>
+            <p className="text-blue-500 font-bold ">200,000,000 ریال</p>
           </div>
-          <div className="flex flex-col gap-y-1 text-sm">
+          <div className="flex flex-col gap-y-1 text-base">
             <div className="flex gap-x-1 items-center">
               <p className="text-slate-500">بازپرداخت:</p>
-              <p className="text-slate-800 ">36 ماه</p>
+              <p className="text-slate-800 font-bold ">36 ماه</p>
             </div>
             <div className="flex gap-x-1 items-center">
               <p className="text-slate-500">مبلغ قسط:</p>
-              <p className="text-slate-800 ">6,000,000 ریال</p>
+              <p className="text-slate-800 font-bold ">6,000,000 ریال</p>
             </div>
             <div className="flex gap-x-1 items-center">
               <p className="text-slate-500">کارمزد:</p>
-              <p className="text-slate-800 ">4,000,000 ریال</p>
+              <p className="text-slate-800 font-bold ">4,000,000 ریال</p>
             </div>
             <div className="flex gap-x-1 items-center">
               <p className="text-slate-500">نرخ کارمزد:</p>
-              <p className="text-slate-800 ">%4</p>
+              <p className="text-red-500 font-bold ">%4</p>
             </div>
           </div>
         </div>
         <div className="flex flex-col   pb-4 mb-2 border-b border-gray-300">
-          <div className="flex gap-x-1 items-center">
+          <div className="flex gap-x-1 items- text-lg">
             <p className="text-slate-500">مبلغ:</p>
-            <p className="text-slate-800 ">50,000,000 ریال</p>
+            <p className="text-blue-500 font-bold">50,000,000 ریال</p>
           </div>
-          <div className="flex flex-col gap-y-1 text-sm">
+          <div className="flex flex-col gap-y-1 text-base">
             <div className="flex gap-x-1 items-center">
               <p className="text-slate-500">بازپرداخت:</p>
-              <p className="text-slate-800 ">20 ماه</p>
+              <p className="text-slate-800 font-bold ">20 ماه</p>
             </div>
             <div className="flex gap-x-1 items-center">
               <p className="text-slate-500">مبلغ قسط:</p>
-              <p className="text-slate-800 ">4,000,000 ریال</p>
+              <p className="text-slate-800 font-bold ">4,000,000 ریال</p>
             </div>
             <div className="flex gap-x-1 items-center">
               <p className="text-slate-500">کارمزد:</p>
-              <p className="text-slate-800 ">4,000,000 ریال</p>
+              <p className="text-slate-800 font-bold ">4,000,000 ریال</p>
             </div>
             <div className="flex gap-x-1 items-center">
               <p className="text-slate-500">نرخ کارمزد:</p>
-              <p className="text-slate-800 ">%4</p>
+              <p className="text-red-500 font-bold ">%4</p>
             </div>
           </div>
         </div>

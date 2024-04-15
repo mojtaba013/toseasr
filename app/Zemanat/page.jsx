@@ -32,99 +32,88 @@ function Zemanat() {
    
     <div className="p-4">
       <div className="flex flex-col   pb-4 mb-2 border-b border-gray-300">
-        <div className="flex gap-x-1 items-center">
+        <div className="flex gap-x-1 items- text- mb-2">
           <p className="text-slate-500">شعبه:</p>
-          <p className="text-slate-800 ">مرکزی</p>
+          <p className="text-slate-800 font-bold ">مرکزی</p>
         </div>
-        <div className="flex flex-col gap-y-1 text-sm">
+        <div className="flex flex-col gap-y-1 text-base">
           <div className="flex gap-x-1 items-center">
             <p className="text-slate-500">وام گیرنده:</p>
-            <p className="text-slate-800 ">مجتبی کجوری</p>
+            <p className="text-slate-800 font-bold ">مجتبی کجوری</p>
           </div>
           <div className="flex gap-x-1 items-center">
             <p className="text-slate-500">شماره وام:</p>
-            <p className="text-slate-800 ">1/6/20/123456</p>
+            <p className="text-slate-800  font-bold">1/6/20/123456</p>
           </div>
           <div className="flex gap-x-1 items-center">
             <p className="text-slate-500">تاریخ وام:</p>
-            <p className="text-slate-800 ">1400/01/01</p>
+            <p className="text-slate-800 font-bold ">1400/01/01</p>
           </div>
           <div className="flex gap-x-1 items-center">
             <p className="text-slate-500">کل اقساط:</p>
-            <p className="text-blue-500 ">36</p>
+            <p className="text-blue-500 font-bold ">36</p>
           </div>
           <div className="flex gap-x-1 items-center">
             <p className="text-slate-500">اقساط باقیمانده:</p>
-            <p className="text-red-500 ">12</p>
-          </div>
-          <div className="flex gap-x-1 items-center">
-            <p className="text-slate-500">چک:</p>
-            <p className="text-slate-800 ">بانک ملی مرکزی سریال547896</p>
-          </div>
+            <p className="text-red-500 font-bold ">12</p>
+          </div>          
         </div>
       </div> 
       <div className="flex flex-col   pb-4 mb-2 border-b border-gray-300">
-        <div className="flex gap-x-1 items-center">
+        <div className="flex gap-x-1 items-center text-lg mb-2">
           <p className="text-slate-500">شعبه:</p>
-          <p className="text-slate-800 ">کشاورز</p>
+          <p className="text-slate-800 font-bold">کشاورز</p>
         </div>
-        <div className="flex flex-col gap-y-1 text-sm">
+        <div className="flex flex-col gap-y-1 text-base">
           <div className="flex gap-x-1 items-center">
             <p className="text-slate-500">وام گیرنده:</p>
-            <p className="text-slate-800 ">مهدی عسگری</p>
+            <p className="text-slate-800 font-bold">مهدی عسگری</p>
           </div>
           <div className="flex gap-x-1 items-center">
             <p className="text-slate-500">شماره وام:</p>
-            <p className="text-slate-800 ">2/6/20/123456</p>
+            <p className="text-slate-800  font-bold">2/6/20/123456</p>
           </div>
           <div className="flex gap-x-1 items-center">
             <p className="text-slate-500">تاریخ وام:</p>
-            <p className="text-slate-800 ">1403/01/01</p>
+            <p className="text-slate-800 font-bold">1403/01/01</p>
           </div>
           <div className="flex gap-x-1 items-center">
             <p className="text-slate-500">کل اقساط:</p>
-            <p className="text-blue-500 ">36</p>
+            <p className="text-blue-500  font-bold">36</p>
           </div>
           <div className="flex gap-x-1 items-center">
             <p className="text-slate-500">اقساط باقیمانده:</p>
-            <p className="text-red-500 ">35</p>
-          </div>
-          <div className="flex gap-x-1 items-center">
-            <p className="text-slate-500">چک:</p>
-            <p className="text-slate-800 ">بانک تجارت مرکزی سریال547896</p>
-          </div>
+            <p className="text-red-500 font-bold">35</p>
+          </div>         
         </div>
       </div>
       <div className="flex flex-col   pb-4 mb-2 border-b border-gray-300">
-        <div className="flex gap-x-1 items-center">
+        <div className="flex gap-x-1 items-center text-lg">
           <p className="text-slate-500">شعبه:</p>
-          <p className="text-slate-800 ">کشاورز</p>
+          <p className="text-slate-800 font-bold">کشاورز</p>
         </div>
-        <div className="flex flex-col gap-y-1 text-sm">
+        <div className="flex flex-col gap-y-1 text-base">
           <div className="flex gap-x-1 items-center">
             <p className="text-slate-500">وام گیرنده:</p>
-            <p className="text-slate-800 ">ابراهیم میرزایی</p>
+            <p className="text-slate-800 font-bold">ابراهیم میرزایی</p>
           </div>
           <div className="flex gap-x-1 items-center">
             <p className="text-slate-500">شماره وام:</p>
-            <p className="text-slate-800 ">2/6/20/123456</p>
+            <p className="text-slate-800 font-bold">2/6/20/123456</p>
           </div>
           <div className="flex gap-x-1 items-center">
             <p className="text-slate-500">تاریخ وام:</p>
-            <p className="text-slate-800 ">1397/01/01</p>
+            <p className="text-slate-800 font-bold">1397/01/01</p>
           </div>
           <div className="flex gap-x-1 items-center">
             <p className="text-slate-500">کل اقساط:</p>
-            <p className="text-blue-500 ">36</p>
+            <p className="text-blue-500 font-bold">36</p>
           </div>
           <div className="flex gap-x-1 items-center">
             <p className="text-slate-500">اقساط باقیمانده:</p>
-            <p className="text-red-500 ">0</p>
+            <p className="text-red-500 font-bold ">0</p>
           </div>
-          <div className="flex gap-x-1 items-center">
-            <p className="text-slate-500">چک:</p>
-            <p className="text-slate-800 ">بانک ملی مرکزی سریال547896</p>
-          </div>
+         
         </div>
       </div>   
     </div>
