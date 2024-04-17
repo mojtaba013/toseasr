@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function Vasigheh() {
   return (
-    <div className="flex flex-col    h-max mb-[65px] scroll-auto bg-white ">
+    <div className="flex flex-col    h-max mb-[60px] scroll-auto bg-white ">
       <div className="flex  items-center justify-between p-4 border-b border-gray-300 mb-3">
         <div className="flex flex-1">
           <Link href="/">
@@ -60,7 +60,7 @@ function Vasigheh() {
         <div className="flex flex-col   pb-4 mb-2 border-b border-gray-300">
           <div className="flex gap-x-1 items- text- mb-2">
             <p className="text-slate-500">شعبه:</p>
-            <p className="text-slate-800 font-bold ">مرکزی</p>
+            <p className="text-slate-800 font-bold ">باغ فردوس</p>
           </div>
           <div className="flex flex-col gap-y-1 text-base">
             <div className="flex gap-x-1 items-center">
@@ -69,16 +69,16 @@ function Vasigheh() {
             </div>
             <div className="flex gap-x-1 items-center">
               <p className="text-slate-500">شماره وام:</p>
-              <p className="text-slate-800  font-bold">1/6/20/123456</p>
+              <p className="text-slate-800  font-bold">6/6/20/123456</p>
             </div>
             <div className="flex gap-x-1 items-center">
               <p className="text-slate-500">شماره دارایی:</p>
-              <p className="text-slate-800 font-bold ">192/100/194200</p>
+              <p className="text-slate-800 font-bold ">192/100/192200</p>
             </div>
             <div className="flex  gap-x-1 ">
               <p className="text-slate-500">توضیحات:</p>
               <p className="text-blue-500 font-bold  ">
-                چک بانک ملی به سریال 12345 به مبلغ 500,000,000
+                چک بانک ملت به سریال 12345 به مبلغ 400,000,000
               </p>
             </div>
           </div>
@@ -86,25 +86,25 @@ function Vasigheh() {
         <div className="flex flex-col   pb-4 mb-2 border-b border-gray-300">
           <div className="flex gap-x-1 items- text- mb-2">
             <p className="text-slate-500">شعبه:</p>
-            <p className="text-slate-800 font-bold ">مرکزی</p>
+            <p className="text-slate-800 font-bold ">کشاورز</p>
           </div>
           <div className="flex flex-col gap-y-1 text-base">
             <div className="flex gap-x-1 items-center">
               <p className="text-slate-500">وام گیرنده:</p>
-              <p className="text-slate-800 font-bold ">مجتبی کجوری</p>
+              <p className="text-slate-800 font-bold ">مهدی عسگری</p>
             </div>
             <div className="flex gap-x-1 items-center">
               <p className="text-slate-500">شماره وام:</p>
-              <p className="text-slate-800  font-bold">1/6/20/123456</p>
+              <p className="text-slate-800  font-bold">21/6/20/123456</p>
             </div>
             <div className="flex gap-x-1 items-center">
               <p className="text-slate-500">شماره دارایی:</p>
-              <p className="text-slate-800 font-bold ">192/100/194200</p>
+              <p className="text-slate-800 font-bold ">192/100/193118</p>
             </div>
             <div className="flex  gap-x-1 ">
               <p className="text-slate-500">توضیحات:</p>
               <p className="text-blue-500 font-bold  ">
-                چک بانک ملی به سریال 12345 به مبلغ 500,000,000
+                چک بانک صادرات به سریال 12345 به مبلغ 100,000,000
               </p>
             </div>
           </div>

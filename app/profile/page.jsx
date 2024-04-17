@@ -5,7 +5,7 @@ import { ICONCOLOR } from "@/utils/constants";
 function profile() {
   return (
     <div>
-      <div className="flex  items-center justify-between   p-4 bg-white ">
+      <div className="flex  items-center justify-between   p-4 bg-orange-50 ">
         <div className="flex flex-1">
           <Link href="/">
             <svg
@@ -72,13 +72,13 @@ function profile() {
         </div>
         <div className="bg-white rounded-xl flex flex-col text-slate-800   px-4 py-2 gap-y-4">
           <div className="flex justify-between items-center">
-            <div className="flex gap-x-2">
+            <div className="flex gap-x-2 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
-                stroke="currentColor"
+                stroke='#f74c58'
                 className="w-6 h-6 text-gray-500"
               >
                 <path
@@ -112,7 +112,7 @@ function profile() {
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
-                stroke="currentColor"
+                stroke='#22c55e'
                 className="w-6 h-6 text-gray-500"
               >
                 <path
@@ -145,7 +145,7 @@ function profile() {
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
-                stroke="currentColor"
+                stroke='#74b8fc'
                 className="w-6 h-6 text-gray-500"
               >
                 <path

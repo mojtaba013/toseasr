@@ -5,7 +5,7 @@ import Link from "next/link";
 function Post() {
   return (
     <div className="">
-      <div className="flex  items-center justify-between   p-4 bg-white ">
+      <div className="flex  items-center justify-between   p-4 bg-orange-50 ">
         <div className="flex flex-1">
           <Link href="/">
             <svg
@@ -65,7 +65,7 @@ function Post() {
             <p>IR760170000000321537459006</p>
           </div>
           <div className="flex justify-between items-center">
-            <div className="flex flex-row items-center gap-x-1">
+            <div className="flex flex-row items-center gap-x-1 text-blue-500">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -82,7 +82,7 @@ function Post() {
               </svg>
               <p>مانده</p>
             </div>
-            <div>
+            <div className="text-orange-500">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -135,7 +135,7 @@ function Post() {
             <p>IR760170000000321537459006</p>
           </div>
           <div className="flex justify-between items-center">
-            <div className="flex flex-row items-center gap-x-1">
+            <div className="flex flex-row items-center gap-x-1 text-blue-500">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -152,7 +152,7 @@ function Post() {
               </svg>
               <p>مانده</p>
             </div>
-            <div>
+            <div className="text-orange-500">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -205,7 +205,7 @@ function Post() {
             <p>IR760170000000321537459006</p>
           </div>
           <div className="flex justify-between items-center">
-            <div className="flex flex-row items-center gap-x-1">
+            <div className="flex flex-row items-center gap-x-1 text-blue-500">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -222,7 +222,7 @@ function Post() {
               </svg>
               <p>مانده</p>
             </div>
-            <div>
+            <div className="text-orange-500">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

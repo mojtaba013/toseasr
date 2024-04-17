@@ -6,7 +6,7 @@ export default function Home() {
   return (
     // mobile mode
     <div className="sm:hidden  flex flex-col ">
-      <header className="bg-white p-2 sticky top-0 flex justify-between items-center">
+      <header className="bg-orange-50 p-2 sticky top-0 flex justify-between items-center">
         <div>
           <Image src="/images/logo.png" alt="zcfsdf" width={50} height={50} />
         </div>

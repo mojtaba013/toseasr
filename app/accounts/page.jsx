@@ -5,7 +5,7 @@ import Link from "next/link";
 function acount() {
   return (
     <div className="">
-      <div className="flex  items-center justify-between   p-4 bg-white ">
+      <div className="flex  items-center justify-between   p-4 bg-orange-50 ">
         <div className="flex flex-1">
           <Link href="/">
             <svg
@@ -83,7 +83,7 @@ function acount() {
             </div>
           </div>
           <div className="flex justify-between items-center border-t-2 border-gray-200 px-4 py-2 text-blue-500">
-            <div className="flex flex-1 justify-center border-l-2 border-gray-200">
+            <div className="text-green-500 flex flex-1 justify-center border-l-2 border-gray-200">
               <p>انتقال پول</p>
             </div>
 
@@ -91,7 +91,7 @@ function acount() {
               <p className="">صورتحساب</p>
             </div>
 
-            <div className="flex flex-1  justify-center">
+            <div className="text-red-500 flex flex-1  justify-center">
               <p>بیشتر</p>
             </div>
           </div>
@@ -150,7 +150,7 @@ function acount() {
           </div>
          
           <div className="flex justify-between items-center border-t-2 border-gray-200 px-4 py-2 text-blue-500">
-            <div className="flex flex-1 justify-center border-l-2 border-gray-200">
+            <div className="text-green-500 flex flex-1 justify-center border-l-2 border-gray-200">
               <p>انتقال پول</p>
             </div>
 
@@ -160,7 +160,7 @@ function acount() {
               </div>
            
 
-            <div className="flex flex-1  justify-center">
+            <div className="text-red-500 flex flex-1  justify-center">
               <p>بیشتر</p>
             </div>
           </div>

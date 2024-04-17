@@ -1,8 +1,11 @@
-import React from "react";
+'use client'
+import React, { useState } from "react";
 import Link from "next/link";
 import { ICONCOLOR } from "@/utils/constants";
+import Modal from 'react-modal'
 
 function Average() {
+  const [isopen,setIsopen]=useState(false);
   return (
     <div className="flex flex-col gap-y-4   h-max mb-[70px] scroll-auto bg-white ">
       <div className="flex  items-center justify-between p-4 border-b border-gray-300 mb-3">
@@ -30,8 +33,9 @@ function Average() {
         <div className="flex flex-1"></div>
       </div>
       <div className="flex flex-row justify-between items-center px-4 gap-x-1">
-        <label>شعبه:</label>
-        <select
+        <label onClick={()=>setIsopen(true)}>شعبه:</label>
+        <Modal isopen={isopen} onRequestClose={()=>setIsopen(false)}>
+          <select
           className="border w-full  border-gray-300 rounded"
           name="shoobe"
           id=""
@@ -41,6 +45,8 @@ function Average() {
           <option value="3">باغ فردوس</option>
           <option value="4">هفت تیر</option>
         </select>
+        </Modal>
+        
       </div>
       <div className="flex flex-row justify-between items-center px-4 gap-x-1">
         <label>حساب:</label>
