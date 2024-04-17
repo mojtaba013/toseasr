@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" dir="rtl" className={myFont.className}>
       {/* <body className={inter.className}>{children}</body> */}
-      <body className="bg-gray-100">
+      <body className="bg-gray-200">
         {children}
 
         <MainNavigation />
