@@ -6,7 +6,7 @@ import Header from '@/components/Header';
 function acount() {
   return (
     <div className="">
-      <Header/>
+      <Header param={"حساب ها"}/>
       <div className=" h-max flex flex-col   p-4 gap-y-2 mb-20  ">
         <div className="flex flex-col   bg-white rounded-2xl w-full  ">
           <div className="flex flex-col gap-y-3 p-4">

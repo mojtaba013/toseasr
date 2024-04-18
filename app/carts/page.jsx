@@ -5,7 +5,7 @@ import Header from '@/components/Header';
 function Post() {
   return (
     <div className="">
-     <Header/>
+     <Header param={"کارت"}/>
       <div className=" h-max flex flex-col items-  p-4 gap-y-2 mb-20  ">
         <div className="flex flex-col   bg-white rounded-2xl w-full p-4 gap-y-4 text-slate-800">
           <div className="flex justify-between text-base ">

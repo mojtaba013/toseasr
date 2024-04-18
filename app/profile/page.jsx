@@ -6,7 +6,7 @@ import Header from '@/components/Header';
 function profile() {
   return (
     <div>
-     <Header/>
+     <Header param={"مشخصات"}/>
       <div className="flex flex-col gap-y-2 p-4 ">
         <div className="bg-white rounded-xl flex items-center justify-between px-4 py-2">
           <div className="flex flex-row items-center gap-x-2 ">
