@@ -11,7 +11,7 @@ function Etebarat() {
         <div className="px-4">
           <div className="flex flex-col bg-white rounded-2xl p-4 ">
             <div className="flex   justify-between mb-4">
-              <p className="text-green-500 font-bold text-lg">
+              <p className=" font-bold text-lg">
                 وام طرح عیدانه 97
               </p>
               <p className="text-sm text-blue-500">شعبه کشاورز</p>
@@ -40,11 +40,11 @@ function Etebarat() {
             </div>
             <div className="border-b-2 border-gray-200 w-full mb-4"></div>
             <div className="flex flex-row-reverse gap-x-12 items-center justify-between   text-slate-800">
-              <div className="text-center py-2 w-full border-2 border-orange-300 rounded-lg bg-orange-100">
+              <div className="text-center py-2 w-full border-2 border-blue-300 rounded-lg bg-blue-100">
                 <p className="text-slate-800">پرداخت</p>
               </div>
 
-              <div className="text-center py-2 w-full border-2 border-orange-300 rounded-lg ">
+              <div className="text-center py-2 w-full border-2 border-blue-300 rounded-lg ">
                 <p className="text-slate-800">جزئیات</p>
               </div>
             </div>
@@ -53,7 +53,7 @@ function Etebarat() {
         <div className="px-4">
           <div className="flex flex-col bg-white rounded-2xl p-4 ">
             <div className="flex  items-center justify-between mb-4">
-              <p className="text-green-500 font-bold text-lg">وام طرح اکرام </p>
+              <p className=" font-bold text-lg">وام طرح اکرام </p>
               <p className="text-sm text-blue-500">شعبه مرکزی</p>
             </div>
             <div className="flex  flex-col gap-y-2 mb-4">
@@ -80,11 +80,11 @@ function Etebarat() {
             </div>
             <div className="border-b-2 border-gray-200 w-full mb-4"></div>
             <div className="flex flex-row-reverse gap-x-12 items-center justify-between   text-slate-800">
-              <div className="text-center py-2 w-full border-2 border-orange-300 rounded-lg bg-orange-100">
+              <div className="text-center py-2 w-full border-2 border-blue-300 rounded-lg bg-blue-100">
                 <p className="text-slate-800">پرداخت</p>
               </div>
 
-              <div className="text-center py-2 w-full border-2 border-orange-300 rounded-lg ">
+              <div className="text-center py-2 w-full border-2 border-blue-300 rounded-lg ">
                 <p className="text-slate-800">جزئیات</p>
               </div>
             </div>

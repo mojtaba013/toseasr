@@ -11,13 +11,13 @@ function MainNavigation() {
   };
 
   return (
-    <div className="bg-orange-50 sm:hidden text-sm flex  shadow-[0_-4px_8px_0_rgba(0,0,0,0.1)]   flex-row items-center justify-between p-4 rounded-t-2xl  fixed bottom-0 left-0 right-0 z-50 ">
+    <div className="bg-white sm:hidden text-sm flex  shadow-[0_-4px_8px_0_rgba(0,0,0,0.1)]   flex-row items-center justify-between p-4 rounded-t-2xl  fixed bottom-0 left-0 right-0 z-50 ">
       {/* کارتها */}
       <Link href="/carts">
         <div
           onClick={() => changeHandler("cart")}
           className={`${
-            activemenu === "cart" ? "text-orange-600" : "text-slate-500"
+            activemenu === "cart" ? "text-blue-600" : "text-slate-500"
           } flex flex-col items-center `}
         >
           <svg
@@ -43,7 +43,7 @@ function MainNavigation() {
         <div
           onClick={() => changeHandler("acoount")}
           className={`${
-            activemenu === "acoount" ? "text-orange-600" : "text-slate-500"
+            activemenu === "acoount" ? "text-blue-600" : "text-slate-500"
           } flex flex-col items-center `}
         >
           <svg
@@ -68,7 +68,7 @@ function MainNavigation() {
         <div
           onClick={() => changeHandler("home")}
           className={`${
-            activemenu === "home" ? "text-orange-600" : "text-slate-500"
+            activemenu === "home" ? "text-blue-600" : "text-slate-500"
           } flex flex-col items-center `}
         >
           <svg
@@ -112,7 +112,7 @@ function MainNavigation() {
       <Link href="/etebarat">
         <div onClick={() => changeHandler("etebarat")}
          className={`${
-          activemenu === "etebarat" ? "text-orange-600" : "text-slate-500"
+          activemenu === "etebarat" ? "text-blue-600" : "text-slate-500"
         } flex flex-col items-center `}
          >
           <svg
@@ -137,7 +137,7 @@ function MainNavigation() {
       <Link href="/profile">
         <div onClick={() => changeHandler("profile")}
          className={`${
-          activemenu === "profile" ? "text-orange-600" : "text-slate-500"
+          activemenu === "profile" ? "text-blue-600" : "text-slate-500"
         } flex flex-col items-center `}>
           <svg
             xmlns="http://www.w3.org/2000/svg"

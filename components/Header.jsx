@@ -4,7 +4,7 @@ import { ICONCOLOR } from "@/utils/constants";
 
 export default function Header({param}) {
   return (
-    <div className="flex  items-center justify-between   p-4 bg-orange-50 ">
+    <div className="flex  items-center justify-between border-b border-gray-300   p-4 bg-gray-100 ">
         <div className="flex flex-1">
           <Link href="/">
             <svg

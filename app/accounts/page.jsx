@@ -8,7 +8,7 @@ function acount() {
     <div className="">
       <Header param={"حساب ها"}/>
       <div className=" h-max flex flex-col   p-4 gap-y-2 mb-20  ">
-        <div className="flex flex-col   bg-white rounded-2xl w-full  ">
+        <div className="flex flex-col bg-gradient-to-r from-green-300   rounded-2xl w-full  ">
           <div className="flex flex-col gap-y-3 p-4">
             <div className="flex justify-between  ">
               <p>پس انداز جامع</p>
@@ -60,8 +60,8 @@ function acount() {
               </svg>
             </div>
           </div>
-          <div className="flex justify-between items-center border-t-2 border-gray-200 px-4 py-2 text-blue-500">
-            <div className="text-green-500 flex flex-1 justify-center border-l-2 border-gray-200">
+          <div className="flex justify-between items-center border-t-2 border-gray-200 px-4 py-2 text-slate-800">
+            <div className=" flex flex-1 justify-center border-l-2 border-gray-200">
               <p>انتقال پول</p>
             </div>
 
@@ -69,15 +69,15 @@ function acount() {
               <p className="">صورتحساب</p>
             </div>
 
-            <div className="text-red-500 flex flex-1  justify-center">
+            <div className=" flex flex-1  justify-center">
               <p>بیشتر</p>
             </div>
           </div>
         </div>
-        <div className="flex flex-col   bg-white rounded-2xl w-full  ">
+        <div className="flex flex-col bg-gradient-to-r from-purple-300  rounded-2xl w-full  ">
           <div className="flex flex-col gap-y-3 p-4">
             <div className="flex justify-between  ">
-              <p>پس انداز جامع</p>
+              <p>پس اندازاکرام</p>
               <div className="flex items-center gap-x-1">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -101,7 +101,7 @@ function acount() {
               </div>
             </div>
             <div className="flex flex-row-reverse items-center justify-between ">
-              <p>1/69/0/128975</p>
+              <p>1/65/0/128975</p>
               <p>شعبه مرکزی</p>
             </div>
             <div className="flex items-center justify-between ">
@@ -127,8 +127,8 @@ function acount() {
             </div>
           </div>
          
-          <div className="flex justify-between items-center border-t-2 border-gray-200 px-4 py-2 text-blue-500">
-            <div className="text-green-500 flex flex-1 justify-center border-l-2 border-gray-200">
+          <div className="flex justify-between items-center border-t-2 border-gray-200 px-4 py-2 text-slate-800">
+            <div className=" flex flex-1 justify-center border-l-2 border-gray-200">
               <p>انتقال پول</p>
             </div>
 
@@ -138,7 +138,7 @@ function acount() {
               </div>
            
 
-            <div className="text-red-500 flex flex-1  justify-center">
+            <div className=" flex flex-1  justify-center">
               <p>بیشتر</p>
             </div>
           </div>

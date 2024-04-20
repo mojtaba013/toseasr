@@ -2,6 +2,8 @@
 //export const ICONCOLOR='#0874e0'
 
 //نارنجی
-export const ICONCOLOR='#ff7f00'
-//سبز
-export const PROFILEICONCOLOR='#22c55e'
+//export const ICONCOLOR='#ff7f00'
+//آبی
+export const ICONCOLOR='#2563eb'
+
+
