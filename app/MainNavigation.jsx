@@ -1,6 +1,11 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
+import { AiFillHome } from "react-icons/ai";
+import { FaCreditCard } from "react-icons/fa6";
+import { HiDocument } from "react-icons/hi";
+import { HiFolder } from "react-icons/hi";
+import { MdAccountCircle } from "react-icons/md";
 
 function MainNavigation() {
   const [activemenu, setActivemenu] = useState(null);
@@ -17,23 +22,10 @@ function MainNavigation() {
         <div
           onClick={() => changeHandler("cart")}
           className={`${
-            activemenu === "cart" ? "text-blue-600" : "text-slate-500"
+            activemenu === "cart" ? "text-orange-500" : "text-slate-500"
           } flex flex-col items-center `}
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-6 h-6"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z"
-            />
-          </svg>
+          <FaCreditCard size={24}/>
 
           <p>کارت ها</p>
         </div>{" "}
@@ -43,23 +35,10 @@ function MainNavigation() {
         <div
           onClick={() => changeHandler("acoount")}
           className={`${
-            activemenu === "acoount" ? "text-blue-600" : "text-slate-500"
+            activemenu === "acoount" ? "text-orange-500" : "text-slate-500"
           } flex flex-col items-center `}
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-6 h-6"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m6.75 12H9m1.5-12H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z"
-            />
-          </svg>
+          <HiDocument size={24}/>
           <p>حساب ها</p>
         </div>
       </Link>
@@ -68,25 +47,13 @@ function MainNavigation() {
         <div
           onClick={() => changeHandler("home")}
           className={`${
-            activemenu === "home" ? "text-blue-600" : "text-slate-500"
+            activemenu === "home" ? "text-orange-500" : "text-slate-500"
           } flex flex-col items-center `}
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-6 h-6"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
-            />
-          </svg>
+         <AiFillHome size={24}/>
           <p>صفحه اصلی</p>
-        </div>
+        </div>  
+        
       </Link>
       {/* خدمات */}
       {/* <Link href="/services">
@@ -112,23 +79,10 @@ function MainNavigation() {
       <Link href="/etebarat">
         <div onClick={() => changeHandler("etebarat")}
          className={`${
-          activemenu === "etebarat" ? "text-blue-600" : "text-slate-500"
+          activemenu === "etebarat" ? "text-orange-500" : "text-slate-500"
         } flex flex-col items-center `}
          >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-6 h-6"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M2.25 12.75V12A2.25 2.25 0 0 1 4.5 9.75h15A2.25 2.25 0 0 1 21.75 12v.75m-8.69-6.44-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z"
-            />
-          </svg>
+          <HiFolder size={24}/>
 
           <p>تسهیلات</p>
         </div>
@@ -137,22 +91,9 @@ function MainNavigation() {
       <Link href="/profile">
         <div onClick={() => changeHandler("profile")}
          className={`${
-          activemenu === "profile" ? "text-blue-600" : "text-slate-500"
+          activemenu === "profile" ? "text-orange-500" : "text-slate-500"
         } flex flex-col items-center `}>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-6 h-6"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-            />
-          </svg>
+          <MdAccountCircle size={24}/>
           <p>پروفایل</p>
         </div>
       </Link>

@@ -33,8 +33,8 @@ function Average() {
         <div className="flex flex-1"></div>
       </div>
       <div className="flex flex-row justify-between items-center px-4 gap-x-1">
-        <label onClick={()=>setIsopen(true)}>شعبه:</label>
-        <Modal isopen={isopen} onRequestClose={()=>setIsopen(false)}>
+        <label >شعبه:</label>
+       
           <select
           className="border w-full  border-gray-300 rounded"
           name="shoobe"
@@ -45,7 +45,7 @@ function Average() {
           <option value="3">باغ فردوس</option>
           <option value="4">هفت تیر</option>
         </select>
-        </Modal>
+       
         
       </div>
       <div className="flex flex-row justify-between items-center px-4 gap-x-1">
