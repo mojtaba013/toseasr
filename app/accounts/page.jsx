@@ -8,7 +8,7 @@ function acount() {
     <div className="">
       <Header param={"حساب ها"}/>
       <div className=" h-max flex flex-col   p-4 gap-y-2 mb-20  ">
-        <div className="flex flex-col bg-gradient-to-r from-green-300 to-blue-400   rounded-2xl w-full  ">
+        <div className="flex flex-col bg-gradient-to-r from-violet-200 to-violet-400   rounded-2xl w-full  ">
           <div className="flex flex-col gap-y-3 p-4">
             <div className="flex justify-between  ">
               <p>پس انداز جامع</p>
@@ -74,7 +74,7 @@ function acount() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col bg-gradient-to-r from-green-300 to-blue-400  rounded-2xl w-full  ">
+        <div className="flex flex-col bg-gradient-to-r from-violet-200 to-violet-400  rounded-2xl w-full  ">
           <div className="flex flex-col gap-y-3 p-4">
             <div className="flex justify-between  ">
               <p>پس اندازاکرام</p>

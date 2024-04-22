@@ -166,7 +166,7 @@ export default function Home() {
                   </svg>
                 </div>
                 <p className="text-sm font-medium text-slate-600">
-                  تعهدات غیرمستقیم
+                  ضمانت
                 </p>
               </div>
             </Link>

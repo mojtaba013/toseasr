@@ -7,7 +7,7 @@ function Post() {
     <div className="">
      <Header param={"کارت ها"}/>
       <div className=" h-max flex flex-col items-  p-4 gap-y-2 mb-20  ">
-        <div className="flex flex-col  bg-gradient-to-r from-violet-300  to-pink-300 rounded-2xl w-full p-4 gap-y-4 text-slate-800">
+        <div className="flex flex-col  bg-gradient-to-r from-blue-200  to-blue-400 rounded-2xl w-full p-4 gap-y-4 text-slate-800">
           <div className="bg-[url('/public/images/logo.png')]"></div>
           <div className="flex justify-between text-base ">
             <p>حساب 2/69/0/149754</p>
@@ -78,7 +78,7 @@ function Post() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col  bg-gradient-to-r from-violet-300  to-pink-300 rounded-2xl w-full p-4 gap-y-4 text-slate-800">
+        <div className="flex flex-col  bg-gradient-to-r from-blue-200  to-blue-400 rounded-2xl w-full p-4 gap-y-4 text-slate-800">
           <div className="flex justify-between  ">
             <p>حساب 2/69/0/149754</p>
             <div className="">
@@ -148,7 +148,7 @@ function Post() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col  bg-gradient-to-r from-violet-300  to-pink-300 rounded-2xl w-full p-4 gap-y-4 text-slate-800">
+        <div className="flex flex-col  bg-gradient-to-r from-blue-200  to-blue-400 rounded-2xl w-full p-4 gap-y-4 text-slate-800">
           <div className="flex justify-between  ">
             <p>حساب 2/69/0/149754</p>
             <div className="">
