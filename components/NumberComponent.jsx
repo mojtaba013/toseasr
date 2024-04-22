@@ -24,7 +24,7 @@ export default function BasicTextFields() {
         <Box
           component="form"
           sx={{
-            "& .MuiTextField-root": { m: 1, width: 300 },
+            "& .MuiTextField-root": { m: 1, width: 340 },
           }}
           noValidate
           autoComplete="off"

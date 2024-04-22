@@ -1,10 +1,14 @@
+"use client";
 import React from "react";
 import Link from "next/link";
 import { ICONCOLOR } from "../../utils/constants";
+import SelectComponent from "../../components/SelectComponent";
+import { FaFilter } from "react-icons/fa";
+import { BsSearch } from "react-icons/bs";
 
 function Bill() {
   return (
-    <div className="flex flex-col gap-y-4   h-max mb-[70px] scroll-auto bg-white ">
+    <div className="flex flex-col gap-y-4   h-max mb-[70px] scroll-auto bg-white px-2">
       <div className="flex  items-center justify-between p-4 border-b border-gray-300 mb-3">
         <div className="flex flex-1">
           <Link href="/">
@@ -29,31 +33,15 @@ function Bill() {
         </div>
         <div className="flex flex-1"></div>
       </div>
-      <div className="flex flex-row justify-between items-center px-4 gap-x-1">
-        <label htmlFor="shoobe">شعبه:</label>
-        <select
-          className="border w-full  border-gray-300 rounded"
-          name="shoobe"
-          id=""
-        >
-          <option value="1">مرکزی</option>
-          <option value="2">کشاورز</option>
-          <option value="3">باغ فردوس</option>
-          <option value="4">هفت تیر</option>
-        </select>
-      </div>
-      <div className="flex flex-row justify-between items-center px-4 gap-x-1">
-        <label htmlFor="shoobe">حساب:</label>
-        <select
-          className="border w-full  border-gray-300 rounded"
-          name="shoobe"
-          id=""
-        >
-          <option value="1">جامع</option>
-          <option value="2">اکرام</option>
-          <option value="3">فجر</option>
-          <option value="4">عیدانه 97</option>
-        </select>
+      <div className="flex flex-col  items-center px-2 gap-y-1">
+        <SelectComponent
+          aa={"شعبه"}
+          p1={"مرکزی"}
+          p2={"کشاورز"}
+          p3={"باغ فردوس"}
+        />
+     
+        <SelectComponent aa={"حساب"} p1={"جامع"} p2={"اکرام"} p3={"فجر"} />
       </div>
       <div className="flex justify-between items-center px-4">
         <label htmlFor="">از تاریخ:</label>
@@ -72,34 +60,8 @@ function Bill() {
         />
       </div>
       <div className="flex justify-between items-center px-4">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth={1.5}
-          stroke={ICONCOLOR}
-          className="w-6 h-6"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
-          />
-        </svg>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth={1.5}
-          stroke={ICONCOLOR}
-          className="w-6 h-6"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M3 4.5h14.25M3 9h9.75M3 13.5h9.75m4.5-4.5v12m0 0-3.75-3.75M17.25 21 21 17.25"
-          />
-        </svg>
+        <BsSearch size={24} color="#2563eb" />
+        <FaFilter size={24} color="#2563eb" />
       </div>
       <div className="p-4">
         <div className="flex flex-col gap-y-1  pb-4 mb-2 border-b border-gray-300">

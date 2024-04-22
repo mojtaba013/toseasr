@@ -48,14 +48,14 @@ function Moneytransfer() {
           </Link>
         </div>
         <div className="flex flex-1 justify-center">
-          <p className="text-slate-800 ">انتقال پول</p>
+          <p className="text-slate-800 ">انتقال وجه</p>
         </div>
         <div className="flex flex-1"></div>
       </div>
-      <SelectComponent aa={"حساب مبدا"} />
-      <SelectComponent aa={"حساب مقصد"} />
+      <SelectComponent aa={"حساب مبدا"} p1={'جامع'} p2={'اکرام'} p3={'فجر'}/>
+      <SelectComponent aa={"حساب مقصد"} p1={'ملی'} p2={'سپه'} p3={'صادرات'}/>
       <NumberComponent />
-      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-[300px] mt-8">
+      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-[340px] mt-8">
         ادامه
       </button>
     </div>

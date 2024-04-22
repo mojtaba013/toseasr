@@ -1,11 +1,12 @@
-'use client'
+"use client";
 import React, { useState } from "react";
 import Link from "next/link";
 import { ICONCOLOR } from "@/utils/constants";
-import Modal from 'react-modal'
+import SelectComponent from "../../components/SelectComponent";
+import NumberComponent from "../../components/NumberComponent";
 
 function Average() {
-  const [isopen,setIsopen]=useState(false);
+  const [isopen, setIsopen] = useState(false);
   return (
     <div className="flex flex-col gap-y-4   h-max mb-[70px] scroll-auto bg-white ">
       <div className="flex  items-center justify-between p-4 border-b border-gray-300 mb-3">
@@ -32,34 +33,15 @@ function Average() {
         </div>
         <div className="flex flex-1"></div>
       </div>
-      <div className="flex flex-row justify-between items-center px-4 gap-x-1">
-        <label >شعبه:</label>
-       
-          <select
-          className="border w-full  border-gray-300 rounded"
-          name="shoobe"
-          id=""
-        >
-          <option value="1">مرکزی</option>
-          <option value="2">کشاورز</option>
-          <option value="3">باغ فردوس</option>
-          <option value="4">هفت تیر</option>
-        </select>
-       
-        
-      </div>
-      <div className="flex flex-row justify-between items-center px-4 gap-x-1">
-        <label>حساب:</label>
-        <select
-          className="border w-full  border-gray-300 rounded"
-          name="shoobe"
-          id=""
-        >
-          <option value="1">جامع</option>
-          <option value="2">اکرام</option>
-          <option value="3">فجر</option>
-          <option value="4">عیدانه 97</option>
-        </select>
+      <div className="flex flex-col  items-center px-4 gap-y-1">
+        <SelectComponent
+          aa={"شعبه"}
+          p1={"مرکزی"}
+          p2={"کشاورز"}
+          p3={"باغ فردوس"}
+        />
+
+        <SelectComponent aa={"حساب"} p1={"جامع"} p2={"اکرام"} p3={"فجر"} />
       </div>
       <div className="px-4 mt-4">
         <button className="bg-blue-500 w-full rounded-md py-2 text-white">

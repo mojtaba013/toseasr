@@ -60,7 +60,7 @@ function acount() {
               </svg>
             </div>
           </div>
-          <div className="flex justify-between items-center border-t-2 border-gray-200 px-4 py-2 text-slate-800">
+          <div className="flex justify-between  items-center border-t-2 border-gray-200 px-4 py-2 text-slate-800">
             <div className=" flex flex-1 justify-center border-l-2 border-gray-200">
               <p>انتقال پول</p>
             </div>

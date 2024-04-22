@@ -21,7 +21,7 @@ const cacheRtl = createCache({
   stylisPlugins: [prefixer, rtlPlugin],
 });
 
-export default function SelectSmall({aa}) {
+export default function SelectSmall({aa,p1,p2,p3}) {
   const [age, setAge] = React.useState("");
 
   const handleChange = (event) => {
@@ -31,22 +31,22 @@ export default function SelectSmall({aa}) {
   return (
     <CacheProvider value={cacheRtl}>
       <ThemeProvider theme={theme}>
-        <FormControl required direction="rtl" sx={{ m: 1, minWidth: 300    }} size="small">
+        <FormControl required direction="rtl" sx={{ m: 1, minWidth: 340    }} size="small">
           <InputLabel  id="demo-select-small-label"> {aa}</InputLabel>
           <Select 
             labelId="demo-select-small-label"
             id="demo-select-small"
             value={age}
-            label="حساب مبدا"
+            label={aa}
             onChange={handleChange}
             
           >
             <MenuItem  value="">
               <em>-- انتخاب کنید--</em>
             </MenuItem>
-            <MenuItem value={10}>طرح جامع</MenuItem>
-            <MenuItem value={20}>اکرام</MenuItem>
-            <MenuItem value={30}>فجر</MenuItem>
+            <MenuItem value={10}>{p1}</MenuItem>
+            <MenuItem value={20}>{p2}</MenuItem>
+            <MenuItem value={30}>{p3}</MenuItem>
           </Select>
         </FormControl>
       </ThemeProvider>
