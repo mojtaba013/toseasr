@@ -37,7 +37,7 @@ export default function Home() {
           <div className="flex flex-row items-center justify-between  px-6 pb-6">
             <Link href="/Bill">
               <div className="flex flex-col items-center text-slate-800 ">
-                <div className="flex items-center justify-center  w-16 h-16 bg-blue-50 border border-blue-200 rounded-full">
+                <div className="flex items-center justify-center  w-16 h-16 bg-violet-500 border  rounded-full">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -58,7 +58,7 @@ export default function Home() {
             </Link>
             <Link href="/Moneytransfer">
               <div className="flex flex-col items-center text-slate-800 ">
-                <div className="flex items-center justify-center  w-16 h-16 bg-blue-50 border border-blue-200  rounded-full">
+                <div className="flex items-center justify-center  w-16 h-16 bg-green-500 border   rounded-full">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -79,7 +79,7 @@ export default function Home() {
               </div>
             </Link>
             <div className="flex flex-col items-center text-slate-800 ">
-              <div className="flex items-center justify-center  w-16 h-16 bg-blue-50 border border-blue-200 rounded-full">
+              <div className="flex items-center justify-center  w-16 h-16 bg-blue-500 border  rounded-full">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -98,7 +98,7 @@ export default function Home() {
               <p className="text-sm font-medium text-slate-600">ساتنا پایا</p>
             </div>
             <div className="flex flex-col items-center text-slate-800">
-              <div className="flex items-center justify-center  w-16 h-16 bg-blue-50 border border-blue-200 rounded-full">
+              <div className="flex items-center justify-center  w-16 h-16 bg-red-500 border  rounded-full">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -127,7 +127,7 @@ export default function Home() {
             <Link href="/Average">
               {" "}
               <div className="flex flex-col items-center text-slate-800">
-                <div className="flex items-center justify-center  w-16 h-16 bg-blue-50 border border-blue-200 rounded-full">
+                <div className="flex items-center justify-center  w-16 h-16 bg-orange-500 border  rounded-full">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -149,7 +149,7 @@ export default function Home() {
             </Link>
             <Link href="/Zemanat">
               <div className="flex flex-col items-center text-slate-800">
-                <div className="flex items-center justify-center  w-16 h-16 bg-blue-50 border border-blue-200 rounded-full">
+                <div className="flex items-center justify-center  w-16 h-16 bg-lime-500 border  rounded-full">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -172,7 +172,7 @@ export default function Home() {
             </Link>
             <Link href="/Vasigheh">
               <div className="flex flex-col items-center text-slate-800">
-                <div className="flex items-center justify-center  w-16 h-16 bg-blue-50 border border-blue-200 rounded-full">
+                <div className="flex items-center justify-center  w-16 h-16 bg-pink-500 border  rounded-full">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -200,7 +200,7 @@ export default function Home() {
           </p>
           <div className="flex flex-row flex-wrap gap-4 flex-1   px-6 pb-6">
             <div className="flex flex-col items-center text-slate-800">
-              <div className="flex items-center justify-center  w-16 h-16 bg-blue-50 border border-blue-200 rounded-full">
+              <div className="flex items-center justify-center  w-16 h-16 bg-blue-500 border  rounded-full">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -219,7 +219,7 @@ export default function Home() {
               <p className="text-sm font-medium text-slate-600">مجتبی کجوری</p>
             </div>
             <div className="flex flex-col items-center text-slate-800">
-              <div className="flex items-center justify-center  w-16 h-16 bg-blue-50 border border-blue-200 rounded-full">
+              <div className="flex items-center justify-center  w-16 h-16 bg-blue-500 border  rounded-full">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -238,7 +238,7 @@ export default function Home() {
               <p className="text-sm font-medium text-slate-600">مجتبی کجوری</p>
             </div>
             <div className="flex flex-col items-center text-slate-800">
-              <div className="flex items-center justify-center  w-16 h-16 bg-blue-50 border border-blue-200 rounded-full">
+              <div className="flex items-center justify-center  w-16 h-16 bg-blue-500 border  rounded-full">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"

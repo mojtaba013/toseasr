@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from "next/link";
-import { ICONCOLOR } from "@/utils/constants";
+import { ICONCOLOR,CHEVRONHEADER } from "@/utils/constants";
 
 export default function Header({param}) {
   return (
@@ -12,7 +12,7 @@ export default function Header({param}) {
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
-              stroke={ICONCOLOR}
+              stroke={CHEVRONHEADER}
               className="w-6 h-6"
             >
               <path

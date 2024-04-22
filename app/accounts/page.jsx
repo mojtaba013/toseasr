@@ -8,7 +8,7 @@ function acount() {
     <div className="">
       <Header param={"حساب ها"}/>
       <div className=" h-max flex flex-col   p-4 gap-y-2 mb-20  ">
-        <div className="flex flex-col bg-gradient-to-r from-green-300   rounded-2xl w-full  ">
+        <div className="flex flex-col bg-gradient-to-r from-green-300 to-blue-400   rounded-2xl w-full  ">
           <div className="flex flex-col gap-y-3 p-4">
             <div className="flex justify-between  ">
               <p>پس انداز جامع</p>
@@ -35,12 +35,12 @@ function acount() {
               </div>
             </div>
             <div className="flex flex-row-reverse items-center justify-between ">
-              <p>2/69/0/149754</p>
+              <p className="font-bold">2/69/0/149754</p>
               <p>شعبه کشاورز</p>
             </div>
             <div className="flex items-center justify-between ">
               <p>شبا:</p>
-              <p>IR760170000000321537459006</p>
+              <p className="font-bold">IR760170000000321537459006</p>
             </div>
             <div className="flex items-center justify-start gap-x-1">
               <p>مانده:</p>
@@ -74,7 +74,7 @@ function acount() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col bg-gradient-to-r from-purple-300  rounded-2xl w-full  ">
+        <div className="flex flex-col bg-gradient-to-r from-green-300 to-blue-400  rounded-2xl w-full  ">
           <div className="flex flex-col gap-y-3 p-4">
             <div className="flex justify-between  ">
               <p>پس اندازاکرام</p>
@@ -101,12 +101,12 @@ function acount() {
               </div>
             </div>
             <div className="flex flex-row-reverse items-center justify-between ">
-              <p>1/65/0/128975</p>
+              <p className="font-bold">1/65/0/128975</p>
               <p>شعبه مرکزی</p>
             </div>
             <div className="flex items-center justify-between ">
               <p>شبا:</p>
-              <p>IR760170000000321537459006</p>
+              <p className="font-bold">IR760170000000321537459006</p>
             </div>
             <div className="flex items-center justify-start gap-x-1">
               <p>مانده:</p>

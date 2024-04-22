@@ -5,9 +5,9 @@ import Header from '@/components/Header';
 function Post() {
   return (
     <div className="">
-     <Header param={"کارت"}/>
+     <Header param={"کارت ها"}/>
       <div className=" h-max flex flex-col items-  p-4 gap-y-2 mb-20  ">
-        <div className="flex flex-col  bg-gradient-to-r from-indigo-300 rounded-2xl w-full p-4 gap-y-4 text-slate-800">
+        <div className="flex flex-col  bg-gradient-to-r from-violet-300  to-pink-300 rounded-2xl w-full p-4 gap-y-4 text-slate-800">
           <div className="bg-[url('/public/images/logo.png')]"></div>
           <div className="flex justify-between text-base ">
             <p>حساب 2/69/0/149754</p>
@@ -43,7 +43,7 @@ function Post() {
             <p>IR760170000000321537459006</p>
           </div>
           <div className="flex justify-between items-center">
-            <div className="flex flex-row items-center gap-x-1 text-blue-500">
+            <div className="flex flex-row items-center gap-x-1 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -60,7 +60,7 @@ function Post() {
               </svg>
               <p>مانده</p>
             </div>
-            <div className="text-orange-500">
+            <div className="text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -78,7 +78,7 @@ function Post() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col  bg-gradient-to-r from-indigo-300 rounded-2xl w-full p-4 gap-y-4 text-slate-800">
+        <div className="flex flex-col  bg-gradient-to-r from-violet-300  to-pink-300 rounded-2xl w-full p-4 gap-y-4 text-slate-800">
           <div className="flex justify-between  ">
             <p>حساب 2/69/0/149754</p>
             <div className="">
@@ -113,7 +113,7 @@ function Post() {
             <p>IR760170000000321537459006</p>
           </div>
           <div className="flex justify-between items-center">
-            <div className="flex flex-row items-center gap-x-1 text-blue-500">
+            <div className="flex flex-row items-center gap-x-1 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -130,7 +130,7 @@ function Post() {
               </svg>
               <p>مانده</p>
             </div>
-            <div className="text-orange-500">
+            <div className="text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -148,7 +148,7 @@ function Post() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col  bg-gradient-to-r from-indigo-300 rounded-2xl w-full p-4 gap-y-4 text-slate-800">
+        <div className="flex flex-col  bg-gradient-to-r from-violet-300  to-pink-300 rounded-2xl w-full p-4 gap-y-4 text-slate-800">
           <div className="flex justify-between  ">
             <p>حساب 2/69/0/149754</p>
             <div className="">
@@ -183,7 +183,7 @@ function Post() {
             <p>IR760170000000321537459006</p>
           </div>
           <div className="flex justify-between items-center">
-            <div className="flex flex-row items-center gap-x-1 text-blue-500">
+            <div className="flex flex-row items-center gap-x-1 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -200,7 +200,7 @@ function Post() {
               </svg>
               <p>مانده</p>
             </div>
-            <div className="text-orange-500">
+            <div className="text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

@@ -11,7 +11,7 @@ function MainNavigation() {
   };
 
   return (
-    <div className="bg-white sm:hidden text-sm flex  shadow-[0_-4px_8px_0_rgba(0,0,0,0.1)]   flex-row items-center justify-between p-4 rounded-t-2xl  fixed bottom-0 left-0 right-0 z-50 ">
+    <div className="bg-white  sm:hidden text-sm flex  shadow-[0_-4px_8px_0_rgba(0,0,0,0.1)]   flex-row items-center justify-between p-4 rounded-t-2xl  fixed bottom-0 left-0 right-0 z-50 ">
       {/* کارتها */}
       <Link href="/carts">
         <div

@@ -4,6 +4,9 @@
 //نارنجی
 //export const ICONCOLOR='#ff7f00'
 //آبی
-export const ICONCOLOR='#2563eb'
+//export const ICONCOLOR='#2563eb'
+//سفید
+export const ICONCOLOR='#ffffff'
+export const CHEVRONHEADER='#ef4444'
 
 

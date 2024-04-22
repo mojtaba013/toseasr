@@ -9,7 +9,7 @@ function Etebarat() {
       <Header param={"وام های من"}/>
       <div className="flex flex-col gap-y-4 mb-24 mt-4">
         <div className="px-4">
-          <div className="flex flex-col bg-white rounded-2xl p-4 ">
+          <div className="flex flex-col bg-gradient-to-l bg-white rounded-2xl p-4 ">
             <div className="flex   justify-between mb-4">
               <p className=" font-bold text-lg">
                 وام طرح عیدانه 97
