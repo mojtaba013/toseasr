@@ -11,7 +11,7 @@ function Etebarat() {
         <div className="px-4">
           <div className="flex flex-col bg-gradient-to-l bg-white rounded-2xl p-4 ">
             <div className="flex   justify-between mb-4">
-              <p className=" font-bold text-lg">
+              <p className=" font-bold text-lg text-blue-500">
                 وام طرح عیدانه 97
               </p>
               <p className="text-sm text-blue-500">شعبه کشاورز</p>
@@ -53,7 +53,7 @@ function Etebarat() {
         <div className="px-4">
           <div className="flex flex-col bg-white rounded-2xl p-4 ">
             <div className="flex  items-center justify-between mb-4">
-              <p className=" font-bold text-lg">وام طرح اکرام </p>
+              <p className=" font-bold text-lg text-blue-500">وام طرح اکرام </p>
               <p className="text-sm text-blue-500">شعبه مرکزی</p>
             </div>
             <div className="flex  flex-col gap-y-2 mb-4">
